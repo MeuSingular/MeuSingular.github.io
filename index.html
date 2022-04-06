@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Singular Psiquiatria Personalizada</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="images/favicons/favicon.png"><script defer src="js/app.js"></script><link href="css/app.css" rel="stylesheet"></head>
+
+<body>
+    <!-- Site header and hero section-->
+    <div class="bg-gradient-to-b from-purple-25 to-purple-50">
+        <!-- Top header contact information and navbar -->
+        <header>
+            <div class="hidden px-4 lg:block sm:px-6">
+    <!-- Container -->
+    <div class="relative max-w-screen-xl py-5 mx-auto border-b border-purple-200/30">
+        <div class="flex items-center justify-between">
+            <!-- Site branding -->
+            <div class="flex-grow-0 flex-shrink-0 w-60">
+                <a href="index.html">
+                    <img src="images/bright-logo-6.png" alt="Bright" class="h-auto" />
+                </a>
+            </div>
+
+            <!-- Contact information -->
+            <ul class="flex ml-8 lg:space-x-6 xl:space-x-16">
+                <!-- Address -->
+                <li class="flex flex-shrink max-w-xs">
+                    <div>
+                        <span class="flex items-center justify-center bg-yellow-400 rounded-2xl w-11 h-11">
+              <!-- TablerIcon name: map-pin -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-purple-700"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="12" cy="11" r="3" />
+                <path
+                  d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+                />
+              </svg>
+            </span>
+                    </div>
+                    <div class="flex-1 mt-0 ml-3 xl:ml-4">
+                        <h5 class="flex items-center text-base font-semibold text-purple-900">
+                            Endereço
+                        </h5>
+                        <p class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90">
+                            Liberty Mall, Torre B, Sala 807 - Asa Norte, Brasília - DF, 70712-903
+                        </p>
+                    </div>
+                </li>
+
+                <!-- Email -->
+                <li class="flex flex-shrink-0">
+                    <div>
+                        <span class="flex items-center justify-center bg-rose-200 rounded-2xl w-11 h-11">
+              <!-- TablerIcon name: Phone -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-purple-700"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                />
+              </svg>
+            </span>
+                    </div>
+                    <div class="flex-1 ml-3 xl:ml-4">
+                        <h5 class="flex items-center text-base font-semibold text-purple-900">
+                            Telefone
+                        </h5>
+                        <p class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90">
+                            +55 (61) 3024-9058
+                        </p>
+                    </div>
+                </li>
+
+                <!-- WhatsApp -->
+                <li class="flex flex-shrink-0">
+                    <div>
+                        <span class="flex items-center justify-center rounded-2xl w-11 h-11 bg-green-200">
+              <!-- TablerIcon name: brand-whatsapp -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-purple-700"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  stroke="none"
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                ></path>
+                <path
+                  d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"
+                ></path>
+                <path
+                  d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"
+                ></path>
+              </svg>
+            </span>
+                    </div>
+                    <div class="flex-1 ml-3 xl:ml-4">
+                        <h5 class="flex items-center text-base font-semibold text-purple-900">
+                            WhatsApp
+                        </h5>
+                        <p class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90">
+                            +55 (61) 98241-9009
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+            <!-- 
+  This component uses Alpine.js for both the programs dropdown and the mobile navigation menu. If you're
+  not familiar with Alpine you can check out their documentation 
+  here: https://alpinejs.dev/start-here
+-->
+<div class='px-4 sm:px-6'>
+  <nav class='flex items-center max-w-screen-xl pt-5 mx-auto'>
+    <div class='flex items-center justify-between w-full'>
+
+      <!-- Main navigation menu for large screens -->
+      <div class='items-center justify-between hidden lg:flex md:space-x-6 lg:space-x-10'>
+        <a href="/">
+          <div class="relative p-0.5 group">
+            <span class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600">Home</span>
+            <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+          </div>
+        </a>
+        <a href="/about-us.html">
+          <div class="relative p-0.5 group">
+            <span class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600">About</span>
+            <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+          </div>
+        </a>
+
+        <!-- Programs dropdown container -->
+        <div class='relative' x-data="{ open: false }">
+
+          <!-- Programs dropdown button -->
+          <button 
+            type='button' 
+            aria-expanded="false" 
+            @click="open = !open"
+          >
+            <div class="relative p-0.5 group">
+              <span class="relative z-10 flex items-center text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600">
+                Programs
+
+                <!-- TablerIcon name: chevron-down -->
+                <!-- Toggle class 'rotate-180' on dropdown open and close -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="ml-1.5 w-5 h-5 transform duration-300 ease-in-out" :class="{'rotate-180': open}" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+
+              </span>
+              <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+            </div>
+          </button>
+
+          <!-- Programs dropdown -->
+          <div 
+            class='absolute z-20 w-screen max-w-xs p-4 mt-3 -translate-x-1/2 bg-white border shadow-lg left-1/2 border-gray-50 rounded-2xl'
+            x-show="open"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="opacity-0 -translate-y-5"
+            x-transition:enter-end="opacity-100 translate-y-0"
+            x-transition:leave="transition ease-in duration-200"
+            x-transition:leave-start="opacity-100 translate-y-0"
+            x-transition:leave-end="opacity-0 -translate-y-5"
+            style="display: none;"
+          >
+            <div 
+              @click.away="open = false" 
+              @keydown.escape.window="open = false"
+            >
+              <a href='/program.html' class='block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group'>
+                <h5 class='text-lg font-semibold text-purple-600'>
+                  Toddler Program
+                </h5>
+                <p class='mt-1 text-sm text-purple-800 opacity-90'>
+                  Curabitur non nulla sit amet nisl tempu convallis quis ac lectus.
+                </p>
+              </a>
+              <hr class="my-1 border-purple-200/30 sm:my-2">
+              <a href='/program.html' class='block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group'>
+                <h5 class='text-lg font-semibold text-purple-600'>
+                  Preschool
+                </h5>
+                <p class='mt-1 text-sm text-purple-800 opacity-90'>
+                  Curabitur non nulla sit amet nisl tempu convallis quis ac lectus.
+                </p>
+              </a>
+              <hr class="my-1 border-purple-200/30 sm:my-2">
+              <a href='/program.html' class='block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group'>
+                <h5 class='text-lg font-semibold text-purple-600'>
+                  Kindergarten
+                </h5>
+                <p class='mt-1 text-sm text-purple-800 opacity-90'>
+                  Curabitur non nulla sit amet nisl tempu convallis quis ac lectus.
+                </p>
+              </a>
+              <hr class="my-1 border-purple-200/30 sm:my-2">
+              <a href='/program.html' class='block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group'>
+                <h5 class='text-lg font-semibold text-purple-600'>
+                  Elementary School
+                </h5>
+                <p class='mt-1 text-sm text-purple-800 opacity-90'>
+                  Curabitur non nulla sit amet nisl tempu convallis quis ac lectus.
+                </p>
+              </a>
+              <hr class="my-1 border-purple-200/30 sm:my-2">
+              <a href='/program.html' class='block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group'>
+                <h5 class='text-lg font-semibold text-purple-600'>
+                  Summer Camp
+                </h5>
+                <p class='mt-1 text-sm text-purple-800 opacity-90'>
+                  Curabitur non nulla sit amet nisl tempu convallis quis ac lectus.
+                </p>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <a href="/gallery.html">
+          <div class="relative p-0.5 group">
+            <span class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600">Gallery</span>
+            <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+          </div>
+        </a>
+        <a href="/parents.html">
+          <div class="relative p-0.5 group">
+            <span class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600">Parents</span>
+            <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+          </div>
+        </a>
+        <a href="/contact.html">
+          <div class="relative p-0.5 group">
+            <span class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600">Contact</span>
+            <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Call to action button -->
+      <div class='hidden lg:block'>
+        <a class="text-lg font-semibold text-purple-900 bg-yellow-500 btn hover:bg-yellow-600" href="contact.html">
+          Enroll today
+        </a>
+      </div>
+
+      <!-- Logo on smaller screens: < lg -->
+      <div class="flex-grow-0 flex-shrink-0 block w-48 lg:hidden sm:w-52">
+        <a href="index.html">
+          <img src="images/bright-logo-6.png" alt="Bright" class="h-auto"/>
+        </a>
+      </div>
+    
+      <!-- Mobile menu container -->
+      <div class='block lg:hidden' x-data="{ open: false }">
+
+        <!-- Hamburger menu button -->
+        <!--
+          Toggle "js-hamburger-open" class based on menu state
+        -->
+        <button 
+          class='relative z-50 w-6 h-5 transition duration-500 ease-in-out transform rotate-0 cursor-pointer group focus:outline-none' 
+          :class="{ 'js-hamburger-open': open }" @click="open = !open"
+        >
+          <span class='absolute top-0 left-0 block w-full h-1 transition duration-200 ease-in-out transform rotate-0 bg-purple-900 rounded-full opacity-100 group-hover:bg-purple-600'></span>
+          <span class='absolute left-0 block w-full h-1 transition duration-200 ease-in-out transform rotate-0 bg-purple-900 rounded-full opacity-100 top-2 group-hover:bg-purple-600'></span>
+          <span class='absolute left-0 block w-full h-1 transition duration-200 ease-in-out transform rotate-0 bg-purple-900 rounded-full opacity-100 top-2 group-hover:bg-purple-600'></span>
+          <span class='absolute left-0 block w-full h-1 transition duration-200 ease-in-out transform rotate-0 bg-purple-900 rounded-full opacity-100 top-4 group-hover:bg-purple-600'></span>
+        </button>
+
+        <!-- Mobile menu -->
+        <!--
+          Toggle "js-mobileNav-open" class based on menu state
+        -->
+        <div 
+          class='absolute top-0 left-0 z-40 w-screen px-4 py-16 overflow-y-scroll bg-gradient-to-tr from-purple-600 to-purple-600 sm:px-8'  
+          @keydown.escape.window="open = false"
+          x-show="open"
+          x-transition:enter="transition ease-out duration-300"
+          x-transition:enter-start="opacity-0 -translate-y-full"
+          x-transition:enter-end="opacity-100 translate-y-0"
+          x-transition:leave="transition ease-in duration-200"
+          x-transition:leave-start="opacity-100 translate-y-0"
+          x-transition:leave-end="opacity-0 -translate-y-full"
+          style="display: none;"
+        >
+          <div class='flex flex-col items-center justify-center w-full h-full'>
+
+            <!-- Site links -->
+            <div class='flex flex-col items-center w-full mx-auto space-y-6 justify-evenly'>
+              <a href="/">
+                <div class="relative p-0.5 group">
+                  <span class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Home</span>
+                  <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                </div>
+              </a>
+
+              <a href="/about-us.html">
+                <div class="relative p-0.5 group">
+                  <span class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">About</span>
+                  <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                </div>
+              </a>
+
+              <a href="/gallery.html">
+                <div class="relative p-0.5 group">
+                  <span class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Gallery</span>
+                  <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                </div>
+              </a>
+
+              <a href="/parents.html">
+                <div class="relative p-0.5 group">
+                  <span class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Parents</span>
+                  <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                </div>
+              </a>
+
+              <a href="/contact.html">
+                <div class="relative p-0.5 group">
+                  <span class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Contact</span>
+                  <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                </div>
+              </a>
+
+              <!-- CTA button -->
+              <a class="relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold leading-normal text-center text-purple-900 duration-300 ease-in-out bg-yellow-400 rounded-full" href="#">
+                Enroll today
+              </a>
+
+            </div>
+
+            <hr class='w-full my-8 border-purple-200 sm:my-10 border-opacity-30'>
+
+            <!-- Programs links -->
+            <div class='w-full max-w-md mx-auto'>
+              <p class='text-lg font-semibold tracking-wider text-center text-purple-200 uppercase sm:text-left'>
+                Programs
+              </p>
+              <div class='grid gap-4 mt-4 justify-items-center sm:justify-items-start sm:grid-cols-2 sm:gap-x-8'>
+                <a href="/program.html">
+                  <div class="relative p-0.5 group">
+                    <span class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Toddler Program</span>
+                    <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                  </div>
+                </a>
+  
+                <a class='sm:justify-self-end' href="/program.html">
+                  <div class="relative p-0.5 group">
+                    <span class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Preschool</span>
+                    <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                  </div>
+                </a>
+  
+                <a href="/program.html">
+                  <div class="relative p-0.5 group">
+                    <span class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Kindergarten</span>
+                    <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                  </div>
+                </a>
+  
+                <a class='sm:justify-self-end' href="/program.html">
+                  <div class="relative p-0.5 group">
+                    <span class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Elementary School</span>
+                    <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                  </div>
+                </a>
+  
+                <a href="/program.html">
+                  <div class="relative p-0.5 group">
+                    <span class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white">Summer Camp</span>
+                    <span class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+</div>
+        </header>
+
+        <!-- Hero section -->
+        <section class='px-4 pt-16 sm:px-6 lg:px-8'>
+
+  <!-- Hero container -->
+  <div class='max-w-screen-xl mx-auto lg:grid lg:grid-cols-12 lg:gap-8' x-data="{ modalOpen: false }" >
+
+    <!-- Hero text content -->
+    <div class='flex flex-col items-center justify-center lg:items-start lg:col-span-6'>
+      <div>
+        <span class='inline-block px-4 py-2 font-medium text-purple-700 bg-purple-200 rounded-full shadow-md -rotate-1'>
+          Welcome to Bright School
+        </span>
+      </div>
+      <h1 class='max-w-xl mt-4 text-center text-purple-900 sm:mt-5 lg:text-left h1 lg:max-w-none'>
+        Creating a brighter future for your child
+      </h1>
+      <p class='max-w-2xl mt-3 text-xl leading-loose text-center text-purple-800 lg:text-left'>
+        At Bright School, we believe every child deserves a brighter future. and strive to give every student a personalized education that will promote their individual strengths and creativity.
+      </p>
+      
+      <!-- Hero buttons -->
+      <div class='flex flex-col items-center mt-8 overflow-hidden sm:flex-row'>
+        <a
+          href='#'
+          class="text-lg font-semibold text-purple-900 bg-yellow-500 btn hover:bg-yellow-600 group"
+        >
+          Enroll today
+
+          <!-- Tablericon name: arrow-narrow-right -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 ml-3 group-hover:animate-horizontal-bounce" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <line x1="15" y1="16" x2="19" y2="12" />
+            <line x1="15" y1="8" x2="19" y2="12" />
+          </svg>
+          
+        </a>
+
+        <button class='mt-6 text-lg font-medium text-purple-900 bg-purple-200 sm:mt-0 sm:ml-6 btn hover:text-white hover:bg-purple-600 group' @click="modalOpen = true">
+          <svg class='w-6 h-6 mr-3 text-purple-600 duration-300 ease-in-out group-hover:text-purple-50' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 494.148 494.148" fill='currentColor'>
+            <g>
+              <g>
+                <path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124    c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884    C432.632,229.572,422.964,213.288,405.284,201.188z"/>
+              </g>
+            </g>
+          </svg>
+          Watch video 
+        </button>
+      </div>
+
+      <!-- Social proof -->
+      <p class="hidden text-sm font-medium tracking-wider text-purple-900 uppercase sm:block lg:hidden xl:block mt-14">
+        Rates 5 stars by over <span class='font-semibold text-purple-600'>100 parents</span>
+      </p>
+      <div class='flex-col hidden mt-8 overflow-hidden divide-y sm:flex sm:mt-5 sm:flex-row sm:divide-x sm:divide-y-0 lg:hidden xl:flex divide-purple-400/20 flex-start'>
+        <div class='flex flex-col items-center pb-5 sm:pb-0 sm:pr-10'>
+          <div class='flex justify-center w-full space-x-0.5'>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <p class='mt-2.5 text-xs font-bold text-purple-700 uppercase tracking-wide'>
+            Great Schools
+          </p>
+        </div>
+        <div class='flex flex-col items-center py-5 sm:py-0 sm:px-10'>
+          <div class='flex justify-center w-full space-x-0.5'>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <p class='mt-2.5 text-xs font-bold tracking-wide text-purple-700 uppercase'>
+            Private School Review
+          </p>
+        </div>
+        <div class='flex flex-col items-center pt-5 sm:pt-0 sm:pl-10'>
+          <div class='flex justify-center w-full space-x-0.5'>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <p class='mt-2.5 text-xs font-bold tracking-wide text-purple-700 uppercase'>
+            Google Reviews
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Hero image & video -->
+    <div class='flex flex-col justify-center max-w-3xl mx-auto mt-16 lg:mt-0 lg:max-w-none lg:col-span-6'>
+      <div class='relative'>
+        <img class="w-full h-auto" src="images/hero-home.png" alt="Bright Photo Collage">
+        <div class='absolute inset-0 flex items-center justify-center'>
+          <span class="absolute inline-flex w-20 h-20 bg-purple-400 rounded-full opacity-60 animate-ping"></span>
+
+          <!-- Video modal button -->
+          <button class="relative z-10 flex items-center justify-center w-20 h-20 bg-white rounded-full outline-none opacity-90" @click="modalOpen = true">
+            <svg class='w-20 h-20 text-purple-600 opacity-95' fill='currentColor' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 485.74 485.74" style="enable-background:new 0 0 485.74 485.74;" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M242.872,0C108.732,0,0.004,108.736,0.004,242.864c0,134.14,108.728,242.876,242.868,242.876    c134.136,0,242.864-108.736,242.864-242.876C485.736,108.736,377.008,0,242.872,0z M338.412,263.94l-134.36,92.732    c-16.776,11.588-30.584,4.248-30.584-16.316V145.38c0-20.556,13.808-27.9,30.584-16.312l134.32,92.732    C355.136,233.384,355.176,252.348,338.412,263.94z"/>
+                </g>
+              </g>
+            </svg>
+          </button>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Video modal-->
+    <div class="fixed inset-0 z-10 w-full h-full px-4 overflow-hidden transition duration-150 ease-linear" aria-modal="true" x-show="modalOpen" @keydown.window.escape="modalOpen = false" x-cloak>
+      <div 
+        class="fixed top-0 left-0 w-screen h-screen transition-opacity duration-300 ease-linear bg-black opacity-50" 
+        x-show="openModal" 
+        x-transition:enter="transition ease-out duration-300" 
+        x-transition:enter-start="opacity-0" 
+        x-transition:enter-end="opacity-50" 
+        x-transition:leave="transition ease-in duration-200" 
+        x-transition:leave-start="opacity-50" 
+        x-transition:leave-end="opacity-0"
+        x-cloak
+      ></div>
+      <div 
+        class="flex items-center justify-center w-auto min-h-screen mx-auto"
+        x-show="modalOpen"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 scale-95 translate-y-24"
+        x-transition:enter-end="opacity-100 scale-100 translate-y-0"
+        x-transition:leave="transition ease-out duration-200"
+        x-transition:leave-start="opacity-100 scale-100 translate-y-0"
+        x-transition:leave-end="opacity-0 scale-95 translate-y-24"
+        x-cloak
+        >
+        <div class='w-full max-w-6xl max-h-full overflow-auto bg-white rounded-2xl' @click.away="modalOpen = false" >
+          <div class="relative aspect-w-16 aspect-h-9">
+            <iframe class="absolute w-full h-full" src="https://www.youtube.com/embed/2ly2il11JaU" title="Video" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Visible only on sm screens ( <= 640px ) and lg screens ( >= 1024px	< 1280px ) -->
+  <div class='flex flex-col items-center mt-20 lg:mt-24 sm:hidden lg:flex xl:hidden'>
+    
+    <!-- Social proof -->
+    <p class="text-sm font-semibold tracking-wider text-purple-900 uppercase">
+      Rates 5 stars by over <span class='font-semibold text-purple-600'>100 parents</span>
+    </p>
+    <div class='flex flex-col mt-8 overflow-hidden divide-y sm:divide-y-0 sm:divide-x sm:flex-row divide-purple-400/20 flex-start'>
+      <div class='flex flex-col items-center pb-5 sm:pb-0 sm:pr-10'>
+        <div class='flex justify-center w-full space-x-0.5'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+        </div>
+        <p class='mt-2.5 text-xs font-bold text-purple-700 uppercase tracking-wide'>
+          Great Schools
+        </p>
+      </div>
+      <div class='flex flex-col items-center py-5 sm:py-0 sm:px-10'>
+        <div class='flex justify-center w-full space-x-0.5'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+        </div>
+        <p class='mt-2.5 text-xs font-bold tracking-wide text-purple-700 uppercase'>
+          Private School Review
+        </p>
+      </div>
+      <div class='flex flex-col items-center pt-5 sm:pt-0 sm:pl-10'>
+        <div class='flex justify-center w-full space-x-0.5'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+        </div>
+        <p class='mt-2.5 text-xs font-bold tracking-wide text-purple-700 uppercase'>
+          Google Reviews
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+
+    <!-- Gradient transition -->
+    <div class="w-full h-40 sm:h-48 xl:h-52 bg-gradient-to-b from-purple-50 to-yellow-100"></div>
+
+    <!-- School marketing section (features and objections) -->
+    <section class='px-4 pb-16 overflow-hidden bg-yellow-100 sm:pb-24 sm:px-6 lg:px-8'>
+
+  <!-- Container -->
+  <div class='max-w-screen-xl mx-auto'>
+
+    <!-- Centered content with feature list -->
+    <div class="relative">
+
+      <!-- Block title and subtext -->
+      <h2 class="max-w-4xl mx-auto text-center text-purple-900 h2">
+        Providing the best possible start to your children's education 
+      </h2>
+      <p class="max-w-3xl mx-auto mt-4 text-xl leading-relaxed text-center text-purple-800">
+        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+      </p>
+
+      <!-- Feature list -->
+      <div class="max-w-3xl mx-auto mt-12">
+        <ul class="flex flex-wrap items-center justify-center -mx-3 -my-2 text-lg text-purple-800">
+          <li class="flex items-center mx-3 my-2">
+            <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+            <span>Personalized</span>
+          </li>
+          <li class="flex items-center mx-3 my-2">
+            <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+            <span>Small classes</span>
+          </li>
+          <li class="flex items-center mx-3 my-2">
+            <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+            <span>Montessori</span>
+          </li>
+          <li class="flex items-center mx-3 my-2">
+            <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+            <span>STEM focused</span>
+          </li>
+          <li class="flex items-center mx-3 my-2">
+            <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+            <span>Hands-on approach</span>
+          </li>
+          <li class="flex items-center mx-3 my-2">
+            <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+            <span>Diverse teachers & students</span>
+          </li>
+          <li class="flex items-center mx-3 my-2">
+            <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+            <span>Experienced staff</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- First alternating block -->
+    <div class='max-w-xl mx-auto mt-16 lg:max-w-none sm:mt-20 lg:mt-24 lg:grid lg:grid-cols-12 lg:gap-x-14 xl:gap-x-20 2xl:gap-x-24'>
+
+      <!-- Block images-->
+      <div class='relative lg:col-span-6'>
+        <div class='relative sm:pl-36 lg:pl-20 xl:pl-32'>
+          <div class="aspect-w-3 aspect-h-4 rounded-2xl">
+            <img class="object-cover rounded-2xl" src="images/home-blocks-01.jpg" alt="Home blocks 01">
+          </div>
+          <div class="absolute bottom-0 left-0 hidden sm:block sm:translate-y-1/3 sm:w-72 sm:h-72 lg:w-64 lg:h-64 xl:w-72 xl:h-72 2xl:w-80 2xl:h-80 rounded-3xl">
+            <img class="object-cover w-full h-full rounded-3xl" src="images/home-blocks-02.jpg" alt="Home blocks 02">
+          </div>
+        </div>
+      </div>
+
+      <!-- Block text content-->
+      <div class='flex flex-col justify-center mt-16 sm:mt-44 lg:mt-0 lg:col-span-6'>
+        <div>
+          <span class='inline-block px-4 py-2 font-medium text-purple-700 bg-purple-200 rounded-full shadow-md -rotate-1'>
+            An eclectic approach to education
+          </span>
+        </div>
+        <h3 class='mt-4 text-purple-900 sm:mt-5 h3'>
+          Our goal is to ensure your little one's success in life
+        </h3>
+        <p class='max-w-2xl mt-3 text-lg leading-loose text-purple-800'>
+          Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        </p>
+        <div class='mt-6'>
+          <a href="/about-us.html" class="font-medium text-white bg-purple-600 btn-sm hover:bg-purple-500 group">
+            Learn more
+
+            <!-- Tablericon name: arrow-narrow-right -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 group-hover:animate-horizontal-bounce" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <line x1="15" y1="16" x2="19" y2="12"></line>
+              <line x1="15" y1="8" x2="19" y2="12"></line>
+            </svg>
+
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Second alternating block -->
+    <div class='max-w-xl mx-auto mt-16 sm:mt-44 lg:mt-56 xl:mt-60 2xl:mt-64 lg:grid lg:grid-cols-12 lg:gap-x-14 xl:gap-x-20 2xl:gap-x-24 lg:max-w-none'>
+
+      <!-- Block images -->
+      <div class='relative lg:order-2 lg:col-span-6'>
+        <div class='relative sm:pr-36 lg:pr-20 xl:pr-32'>
+          <div class="aspect-w-3 aspect-h-4 rounded-3xl">
+            <img class="object-cover rounded-3xl" src="images/home-blocks-03.jpg" alt="Home blocks 03">
+          </div>
+          <div class="absolute top-0 right-0 hidden sm:block sm:-translate-y-1/3 sm:w-72 sm:h-72 lg:w-64 lg:h-64 xl:w-72 xl:h-72 2xl:w-80 2xl:h-80 rounded-3xl">
+            <img class="object-cover w-full h-full rounded-3xl" src="images/home-blocks-04.jpg" alt="Home blocks 04">
+          </div>
+        </div>
+      </div>
+
+      <!-- Block text content -->
+      <div class='flex flex-col justify-center mt-16 sm:mt-20 lg:mt-0 lg:order-1 lg:col-span-6'>
+        <div>
+          <span class='inline-block px-4 py-2 font-medium text-purple-700 bg-purple-200 rounded-full shadow-md -rotate-1'>
+            A second home for your child
+          </span>
+        </div>
+        <h3 class='mt-4 text-purple-900 sm:mt-5 h3'>
+          We provide an environment that enables students to thrive.
+        </h3>
+        <p class='max-w-2xl mt-3 text-lg leading-loose text-purple-800'>
+          Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        </p>
+        
+        <div class='mt-6'>
+          <a href="/about-us.html" class="font-medium text-white bg-purple-600 btn-sm hover:bg-purple-500 group">
+            Learn more
+
+            <!-- Tablericon name: arrow-narrow-right -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 group-hover:animate-horizontal-bounce" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <line x1="15" y1="16" x2="19" y2="12"></line>
+              <line x1="15" y1="8" x2="19" y2="12"></line>
+            </svg>
+            
+          </a>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+    <!-- School teachers' qualifications -->
+    <section class='relative w-full px-4 py-16 sm:py-24 sm:px-6 xl:px-8'>
+
+  <!-- Container -->
+  <div class='max-w-xl mx-auto lg:max-w-screen-xl'>
+    <div class='grid gap-16 lg:grid-cols-2 xl:grid-cols-11 lg:gap-12 xl:gap-24'>
+
+      <!-- Text content -->
+      <div class='flex flex-col justify-center lg:col-span-1 xl:col-span-6 lg:order-2'>
+        <div>
+          <span class='inline-block px-4 py-2 font-medium text-purple-700 bg-purple-200 rounded-full shadow-md -rotate-1'>
+            Your kids are in good hands
+          </span>
+        </div>
+        <h2 class='mt-4 text-purple-900 sm:mt-5 h2'>
+          Meet the teachers behind Bright School
+        </h2>
+        <p class="max-w-xl mt-4 text-xl leading-relaxed text-purple-800 md:mt-5">
+          Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+        </p>
+      
+        <!-- Teacher qualifications box -->
+        <div class='relative max-w-4xl mt-16 bg-yellow-100 rounded-xl sm:mt-14'>
+          <span class="absolute flex items-center justify-center shadow-md left-6 sm:left-10 -top-7 rounded-2xl w-14 h-14 bg-gradient-to-br from-purple-600 to-purple-600">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-purple-50" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <circle cx="15" cy="15" r="3" />
+              <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5" />
+              <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73" />
+              <line x1="6" y1="9" x2="18" y2="9" />
+              <line x1="6" y1="12" x2="9" y2="12" />
+              <line x1="6" y1="15" x2="8" y2="15" />
+            </svg>
+          </span>
+          <div class='px-4 py-10 mt-2 sm:px-10 sm:py-12'>
+            <p class='text-lg font-semibold text-purple-900 sm:text-xl'>At Bright, we pride ourselves on the quality of our teachers. You can expect the following from our teachers:</p>
+
+            <!-- Teacher qualifications list -->
+            <ul class="mt-5 space-y-5 text-lg text-purple-800">
+
+              <!-- Item 1 -->
+              <li class="flex items-center">
+                <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+                <svg class="flex-shrink-0 hidden w-6 h-6 mr-3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="text-green-500 fill-current" cx="12" cy="12" r="12" />
+                  <path class="text-white fill-current" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
+                </svg>
+                <span>A minimum of 3 years of experience
+                </span>
+              </li>
+
+              <!-- Item 2-->
+              <li class="flex items-center">
+                <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+                <svg class="flex-shrink-0 hidden w-6 h-6 mr-3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="text-green-500 fill-current" cx="12" cy="12" r="12" />
+                  <path class="text-white fill-current" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
+                </svg>
+                <span>An advanced degree</span>
+              </li>
+
+              <!-- Item 3-->
+              <li class="flex items-center">
+                <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+                <svg class="flex-shrink-0 hidden w-6 h-6 mr-3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="text-green-500 fill-current" cx="12" cy="12" r="12" />
+                  <path class="text-white fill-current" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
+                </svg>
+                <span>Amazing recommendations and positive reviews</span>
+              </li>
+
+              <!-- Item 4 -->
+              <li class="flex items-center">
+                <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+                <svg class="flex-shrink-0 hidden w-6 h-6 mr-3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="text-green-500 fill-current" cx="12" cy="12" r="12" />
+                  <path class="text-white fill-current" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
+                </svg>
+                <span>A love and passion for teaching and helping children grow and succeed</span>
+              </li>
+
+              <!-- Item 5 -->
+              <li class="flex items-center">
+                <img class='flex-shrink-0 mr-3 w-7 h-7' src='images/checkmark.svg'>
+                <svg class="flex-shrink-0 hidden w-6 h-6 mr-3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="text-green-500 fill-current" cx="12" cy="12" r="12" />
+                  <path class="text-white fill-current" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
+                </svg>
+                <span>A commitment to creating a positive classroom experience for all students, no matter their learning needs</span>
+              </li>
+
+            </ul>
+
+            <!-- Link to team section -->
+            <a href="/about-us.html#team" class="mt-10 font-medium text-white bg-purple-600 btn-sm hover:bg-purple-500 group">
+              Meet the rest of the team
+
+              <!-- Tablericon name: arrow-narrow-right -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 group-hover:animate-horizontal-bounce" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <line x1="15" y1="16" x2="19" y2="12"></line>
+                <line x1="15" y1="8" x2="19" y2="12"></line>
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Featured teachers section -->
+      <div class='grid w-full gap-10 mx-auto sm:gap-8 lg:col-span-1 xl:col-span-5 lg:mt-20 sm:grid-cols-2 lg:gap-4 xl:gap-8 lg:order-1 sm:max-w-none sm:mx-0'>
+
+        <!-- Teacher 1 -->
+        <div class='lg:-translate-y-20'>
+          <div class='aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4'>
+            <img class='object-cover shadow-md rounded-3xl' src='images/about-team-01.jpg' alt='About team 1'>
+          </div>
+          <div class='pl-2 sm:pl-0 mt-3.5 text-lg sm:text-center'>
+            <p class='font-semibold tracking-wide text-purple-800'>
+              Tecia Torres
+            </p>
+            <p class='text-base font-medium text-purple-600'>
+              Executive Director
+            </p>
+          </div>
+        </div>
+
+        <!-- Teacher 2 -->
+        <div>
+          <div class='aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4'>
+            <img class='object-cover shadow-md rounded-3xl' src='images/about-team-02.jpg' alt='About team 2'>
+          </div>
+          <div class='pl-2 sm:pl-0 sm:text-center mt-3.5 text-lg'>
+            <p class='font-semibold tracking-wide text-purple-800'>
+              Tracy Cortez
+            </p>
+            <p class='text-base font-medium text-purple-600'>
+              Preschool Lead Teacher
+            </p>
+          </div>
+        </div>
+
+        <!-- Teacher 3 -->
+        <div class='lg:-translate-y-20'>
+          <div class='aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4'>
+            <img class='object-cover shadow-md rounded-3xl' src='images/about-team-03.jpg' alt='About team 3'>
+          </div>
+          <div class='pl-2 sm:pl-0 sm:text-center mt-3.5 text-lg'>
+            <p class='font-semibold tracking-wide text-purple-800'>
+              Giga Chikadze
+            </p>
+            <p class='text-base font-medium text-purple-600'>
+              Lead Teacher
+            </p>
+          </div>
+        </div>
+
+        <!-- Teacher 4 -->
+        <div>
+          <div class='aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4'>
+            <img class='object-cover shadow-md rounded-3xl' src='images/about-team-04.jpg' alt='About team 4'>
+          </div>
+          <div class='pl-2 sm:pl-0 sm:text-center mt-3.5 text-lg'>
+            <p class='font-semibold tracking-wide text-purple-800'>
+              Bea Malecki
+            </p>
+            <p class='text-base font-medium text-purple-600'>
+              Preschool Director
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- School programs section -->
+    <section class='px-4 pt-16 pb-24 overflow-hidden sm:pb-28 md:pb-0 sm:pt-24 sm:px-6 lg:px-8'>
+
+  <!-- Container -->
+  <div class='max-w-xl mx-auto md:max-w-screen-xl'>
+
+    <!-- Section header title and subtext  -->
+    <div class='md:grid md:grid-cols-2 md:gap-12 lg:gap-16'>
+      <div>
+        <h2 class='max-w-4xl text-purple-900 h2'>
+          The best early education programs for your child
+        </h2>
+        <p class='max-w-2xl mx-auto mt-4 text-xl leading-relaxed text-purple-800 sm:mt-5 lg:text-left'>
+          Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+        </p>
+      </div>
+    </div>
+    
+    <!-- School programs -->
+    <div class='mt-16 md:mt-72 md:grid md:grid-cols-2 md:gap-8 lg:gap-16'>
+
+      <!-- Program 1 and background dotted line decorations -->
+      <div class='relative'>
+        <img src='images/curved-dotted-line.svg' class='absolute top-0 hidden -translate-y-1/2 md:block left-1/2' style="width: calc(50% + 4rem);">
+
+        <!-- Program 1 -->
+        <div class='relative z-10 w-full px-8 py-10 sm:p-12 md:px-8 md:py-10 lg:p-12 bg-purple-25 rounded-3xl'>
+          <div class='flex flex-col justify-between'>
+            <div class='flex-1'>
+              <h3 class='text-purple-900 h3'>
+                Preschool
+              </h3>
+              <p class='max-w-2xl mt-3 text-lg leading-loose text-purple-800'>
+                Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+              </p>
+              <div class='relative mt-8 aspect-w-3 aspect-h-2'>
+                <img
+                  class="object-cover rounded-2xl"
+                  src="images/program-01.jpg"
+                  alt="Program 01"
+                />
+              </div>
+            </div>
+            <div class='mt-8'>
+              <a href="/about-us.html#team" class="font-medium text-white bg-purple-600 btn-sm hover:bg-purple-500 group">
+                Learn more
+
+                <!-- Tablericon name: arrow-narrow-right -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 group-hover:animate-horizontal-bounce" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <line x1="15" y1="16" x2="19" y2="12"></line>
+                  <line x1="15" y1="8" x2="19" y2="12"></line>
+                </svg>
+
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <img src='images/looped-dotted-line.svg' class='hidden md:block absolute bottom-0 left-1/2 translate-y-[90%]' style="width: calc(50% + 4rem);">
+      </div>
+
+      <!-- Program 2 -->
+      <div class='relative w-full px-8 py-10 mt-12 bg-yellow-200 sm:p-12 md:mt-0 md:px-8 md:py-10 lg:p-12 md:-translate-y-80 rounded-3xl'>
+        <div class='flex flex-col justify-between'>
+          <div class='flex-1'>
+            
+            <h3 class='text-purple-900 h3'>
+              Elementary School
+            </h3>
+            <p class='max-w-2xl mt-3 text-lg leading-loose text-purple-800'>
+              Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            </p>
+            <div class='relative mt-8 aspect-w-3 aspect-h-2'>
+              <img
+                class="object-cover rounded-2xl"
+                src="images/program-02.jpg"
+                alt="Program 02"
+              />
+            </div>
+          </div>
+          <div class='mt-8'>
+            <a href="/about-us.html#team" class="font-medium text-white bg-purple-600 btn-sm hover:bg-purple-500 group">
+              Learn more
+
+              <!-- Tablericon name: arrow-narrow-right -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 group-hover:animate-horizontal-bounce" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <line x1="15" y1="16" x2="19" y2="12"></line>
+                <line x1="15" y1="8" x2="19" y2="12"></line>
+              </svg>
+
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Program 3 -->
+      <div class='relative w-full px-8 py-10 mt-12 sm:p-12 md:mt-0 md:col-start-2 md:px-8 md:py-10 lg:p-12 md:-translate-y-80 bg-blue-50 rounded-3xl'>
+        <div class='flex flex-col justify-between'>
+          <div class='flex-1'>
+            <h3 class='text-purple-900 h3'>
+              Toddler Program
+            </h3>
+            <p class='max-w-2xl mt-3 text-lg leading-loose text-purple-800'>
+              Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            </p>
+            <div class='relative mt-8 aspect-w-3 aspect-h-2'>
+              <img
+                class="object-cover rounded-2xl"
+                src="images/program-03.jpg"
+                alt="Program 03"
+              />
+            </div>
+          </div>
+          <div class='mt-8'>
+            <a href="/about-us.html#team" class="font-medium text-white bg-purple-600 btn-sm hover:bg-purple-500 group">
+              Learn more
+
+              <!-- Tablericon name: arrow-narrow-right -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 group-hover:animate-horizontal-bounce" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <line x1="15" y1="16" x2="19" y2="12"></line>
+                <line x1="15" y1="8" x2="19" y2="12"></line>
+              </svg>
+              
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+  
+</section>
+
+    <!-- Parent testimonials section -->
+    <section class='py-20 bg-purple-600 sm:py-28 lg:py-32 md:-mt-48'>
+
+  <!-- Container -->
+  <div class='px-4 mx-auto lg:max-w-screen-2xl sm:px-6'>
+
+    <!-- Section header title and subheader -->
+    <div class='flex flex-col items-center justify-center'>
+      <h2 class='max-w-2xl text-center text-white h2'>
+        See what parents are saying about us
+      </h2>
+      <p class="max-w-3xl mx-auto mt-4 text-xl leading-relaxed text-center text-purple-50">
+        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+      </p>
+    </div>
+
+    <!-- Testimonials-->
+    <div class='grid gap-8 mt-12 md:gap-8 sm:gap-6 md:mt-14 lg:mt-16 xl:mt-20 2xl:mt-24 xl:grid-cols-4 sm:grid-cols-2 2xl:gap-12 lg:gap-6'>
+      
+      <!-- Testimonial 1 -->
+      <blockquote class='px-8 py-8 transition duration-300 ease-in-out bg-yellow-200 sm:px-6 md:px-8 lg:px-5 2xl:px-8 rounded-3xl'>
+        <img src='images/testimonial-01.jpg' class='object-cover w-20 h-20 border-2 border-yellow-300 rounded-full filter drop-shadow-2xl' alt='Testimonial 01'>
+        <p class='mt-3 text-lg font-bold text-purple-900'>
+          Aspen Ladd
+        </p>
+
+        <!-- Rating -->
+        <div class='mt-1 flex justify-start w-full space-x-0.5'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+        </div>
+
+        <p class='mt-5 text-lg text-purple-800'>
+          "Donec sollicitudin molestie malesuada. Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus."
+        </p>
+      </blockquote>
+
+      <!-- Testimonial 2 -->
+      <blockquote class='px-8 py-8 transition duration-300 ease-in-out bg-purple-25 sm:px-6 md:px-8 lg:px-5 2xl:px-8 rounded-3xl'>
+        <img src='images/testimonial-02.jpg' class='object-cover w-20 h-20 border-2 border-yellow-300 rounded-full filter drop-shadow-2xl' alt="Testimonial 02">
+        <p class='mt-3 text-lg font-bold text-purple-900'>
+          Kevin Lee
+        </p>
+
+        <!-- Rating -->
+        <div class='mt-1 flex justify-start w-full space-x-0.5'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+        </div>
+
+        <p class='mt-5 text-lg text-purple-800'>
+          "Donec sollicitudin molestie malesuada. Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus."
+        </p>
+      </blockquote>
+
+      <!-- Testimonial 3 -->
+      <blockquote class='px-8 py-8 transition duration-300 ease-in-out bg-rose-50 sm:px-6 md:px-8 lg:px-5 2xl:px-8 rounded-3xl'>
+        <img src='images/testimonial-03.jpg' class='object-cover w-20 h-20 border-2 border-yellow-300 rounded-full filter drop-shadow-2xl' alt="Testimonial 03">
+        <p class='mt-3 text-lg font-bold text-purple-900'>
+          Alexa Grasso
+        </p>
+
+        <!-- Rating -->
+        <div class='mt-1 flex justify-start w-full space-x-0.5'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+        </div>
+
+        <p class='mt-5 text-lg text-purple-800'>
+          "Donec sollicitudin molestie malesuada. Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus."
+        </p>
+      </blockquote>
+
+      <!-- Testimonial 4 -->
+      <blockquote class='px-8 py-8 transition duration-300 ease-in-out bg-blue-50 sm:px-6 md:px-8 lg:px-5 2xl:px-8 rounded-3xl'>
+        <img src='images/testimonial-04.jpg' class='object-cover w-20 h-20 border-2 border-yellow-300 rounded-full filter drop-shadow-2xl' alt="Testimonial 04">
+        <p class='mt-3 text-lg font-bold text-purple-900'>
+          Marina Rodriguez
+        </p>
+
+        <!-- Rating -->
+        <div class='mt-1 flex justify-start w-full space-x-0.5'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+          </svg>
+        </div>
+        
+        <p class='mt-5 text-lg text-purple-800'>
+          "Donec sollicitudin molestie malesuada. Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus."
+        </p>
+      </blockquote>
+
+    </div>
+    
+  </div>
+
+</section>
+
+
+    <!-- Frequently asked questions -->
+    <!-- 
+  This example uses Alpine.js for the accordion effect in FAQ. If you're
+  not familiar with Alpine you can check out their documentation 
+  here: https://alpinejs.dev/start-here
+-->
+<section class='py-20 bg-yellow-100 sm:py-28'>
+
+  <!-- Container -->
+  <div class='px-4 mx-auto lg:max-w-screen-lg sm:px-6 lg:px-8'>
+
+    <!-- Section header title and subtext  -->
+    <div class='max-w-2xl'>
+      <h2 class='text-purple-900 h2'>
+        Frequently asked questions
+      </h2>
+      <p class='max-w-2xl mt-4 text-xl leading-relaxed text-purple-800 lg:text-left'>
+        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+      </p>
+    </div>
+    
+    <!-- FAQ -->
+    <ul class='relative mt-12 space-y-6'>
+
+      <!-- Decorator images-->
+      <div>
+        <img class='absolute hidden h-auto w-28 -left-60 top-10 2xl:block' src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjY0Ljc1cHQiIGhlaWdodD0iMzc0Ljk5OTk5MXB0IiB2aWV3Qm94PSIwIDAgMjY0Ljc1IDM3NC45OTk5OTEiIHZlcnNpb249IjEuMiI+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAxIj4KICA8cGF0aCBkPSJNIDAuMDMxMjUgMC4xOTE0MDYgTCAyNjQuNSAwLjE5MTQwNiBMIDI2NC41IDI5OC45ODA0NjkgTCAwLjAzMTI1IDI5OC45ODA0NjkgWiBNIDAuMDMxMjUgMC4xOTE0MDYgIi8+CjwvY2xpcFBhdGg+CjxjbGlwUGF0aCBpZD0iY2xpcDIiPgogIDxwYXRoIGQ9Ik0gMjMuMTAxNTYyIDMwNi41MzEyNSBMIDEyMy4zNDM3NSAzMDYuNTMxMjUgTCAxMjMuMzQzNzUgMzc0LjgyMDMxMiBMIDIzLjEwMTU2MiAzNzQuODIwMzEyIFogTSAyMy4xMDE1NjIgMzA2LjUzMTI1ICIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+CjxnIGlkPSJzdXJmYWNlMSI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMSkiIGNsaXAtcnVsZT0ibm9uemVybyI+CjxwYXRoIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7ZmlsbDpyZ2IoOTcuMjQ4ODQlLDgxLjU2ODkwOSUsNDUuODc4NjAxJSk7ZmlsbC1vcGFjaXR5OjE7IiBkPSJNIDExNS40MTQwNjIgMjkwLjM0NzY1NiBDIDEyMS4zMDA3ODEgMjg5LjMyMDMxMiAxMjcuMzgyODEyIDI4OC40ODgyODEgMTMxLjg2NzE4OCAyODYuMDU0Njg4IEMgMTI2Ljg3ODkwNiAyODIuNDU3MDMxIDEyNC4xNDQ1MzEgMjc2LjYxNzE4OCAxMTguMjc3MzQ0IDI3My44OTg0MzggQyAxMTcuMDkzNzUgMjc5LjE1NjI1IDExNi41MDc4MTIgMjg1IDExNS40MTQwNjIgMjkwLjM0NzY1NiBaIE0gMTIyLjU3MDMxMiAyMzguMTQ4NDM4IEMgMTIxLjc5Njg3NSAyNDUuNDQxNDA2IDEyMC42MzY3MTkgMjU2LjcxODc1IDExOS43MDcwMzEgMjY2LjAzNTE1NiBDIDEyNS41MzUxNTYgMjcwLjIxODc1IDEyOC45NzY1NjIgMjc2Ljc4OTA2MiAxMzUuNDQxNDA2IDI4MC4zMzU5MzggQyAxMzYuNDA2MjUgMjcyLjI0MjE4OCAxMzYuNjI1IDI2My40MDIzNDQgMTM5LjAxOTUzMSAyNTYuNzQyMTg4IEMgMTMzLjQ0OTIxOSAyNTAuNjI4OTA2IDEzMy4xNTIzNDQgMjM5LjI0NjA5NCAxMjIuNTcwMzEyIDIzOC4xNDg0MzggWiBNIDEzNC43MjI2NTYgMjM4LjE0ODQzOCBDIDEzNC44MTY0MDYgMjQwLjIyMjY1NiAxMzguMzc4OTA2IDI0NC45NzY1NjIgMTQwLjQ0OTIxOSAyNDcuNDQ1MzEyIEMgMTQxLjc1MzkwNiAyNDQuNjk1MzEyIDE0MS45MTQwNjIgMjQwLjgwNDY4OCAxNDIuNTkzNzUgMjM3LjQzMzU5NCBDIDEzOS42NjAxNTYgMjM3LjM2MzI4MSAxMzYuNzM0Mzc1IDIzNy4yOTI5NjkgMTM0LjcyMjY1NiAyMzguMTQ4NDM4IFogTSAxNzYuMjEwOTM4IDIyNi43MTA5MzggQyAxNzUuODEyNSAyMjYuNzA3MDMxIDE3NS4zOTg0MzggMjI3LjI4OTA2MiAxNzYuMjEwOTM4IDIyNy40MjU3ODEgQyAxODkuMjk2ODc1IDIyMS4yMDcwMzEgMjA0LjIwNzAzMSAyMTYuODA0Njg4IDIxMy4zOTg0MzggMjA2LjY5MTQwNiBDIDIxMi4yMTQ4NDQgMjAzLjU4MjAzMSAyMTAuNDY4NzUgMjAxLjAzNTE1NiAyMDcuNjc1NzgxIDE5OS41MzkwNjIgQyAxOTkuOTMzNTk0IDIxMS4zNDM3NSAxODguODgyODEyIDIxOS44Mzk4NDQgMTc2LjIxMDkzOCAyMjYuNzEwOTM4IFogTSAyMTEuOTY4NzUgMTk0LjUzNTE1NiBDIDIxNC4zNjMyODEgMTk3LjE0ODQzOCAyMTYuNDc2NTYyIDIwMC4wMzkwNjIgMjE4LjQwMjM0NCAyMDMuMTEzMjgxIEMgMjI3Ljg1MTU2MiAxOTUuODc1IDIzNi4xMTMyODEgMTg3LjQ1MzEyNSAyNDAuNTc4MTI1IDE3NS4yMzA0NjkgQyAyMzcuMjc3MzQ0IDE2OC43NTc4MTIgMjMxLjgwODU5NCAxNjQuNDQ5MjE5IDIyNy43MDcwMzEgMTU4Ljc4NTE1NiBDIDIyMy43MTg3NSAxNzEuOTYwOTM4IDIxOC43MDcwMzEgMTg0LjEwOTM3NSAyMTEuOTY4NzUgMTk0LjUzNTE1NiBaIE0gMjI5Ljg1MTU2MiAxNTAuOTIxODc1IEMgMjM0LjU1MDc4MSAxNTYuOTQxNDA2IDIzOC4zMTY0MDYgMTYzLjkwNjI1IDI0NC44NjcxODggMTY4LjA4MjAzMSBDIDI0OS44NzUgMTU4Ljc4MTI1IDI1MS4zMDg1OTQgMTQ1LjkxNzk2OSAyNTQuODc4OTA2IDEzNS4xOTE0MDYgQyAyNDguNTE5NTMxIDEyNy40ODgyODEgMjQwLjYyNSAxMjEuMzEyNSAyMzQuMTQwNjI1IDExMy43MzgyODEgQyAyMzYuMDE1NjI1IDEyNS45Njg3NSAyMzIuNTE5NTMxIDEzOS4xODc1IDIyOS44NTE1NjIgMTUwLjkyMTg3NSBaIE0gMjMzLjQyNTc4MSAxMDUuMTYwMTU2IEMgMjQxLjIwNzAzMSAxMTIuMTU2MjUgMjQ3Ljc1IDEyMC4zOTQ1MzEgMjU2LjMxMjUgMTI2LjYwOTM3NSBDIDI1Ny42MTcxODggMTExLjQ3NjU2MiAyNTQuMzQzNzUgOTcuOTM3NSAyNTAuNTg5ODQ0IDg1Ljg1NTQ2OSBDIDI0My40Mzc1IDc5LjQxNzk2OSAyMzUuNjg3NSA3My41ODIwMzEgMjI2LjI3MzQzOCA2OS40MTAxNTYgQyAyMzAuNTcwMzEyIDgwLjMyNDIxOSAyMzQuMzI0MjE5IDkwLjY5MTQwNiAyMzMuNDI1NzgxIDEwNS4xNjAxNTYgWiBNIDIxOS44MzU5MzggNTguNjgzNTk0IEMgMjI2Ljg5NDUzMSA2NC45NTcwMzEgMjM3LjUwNzgxMiA2Ni4wNzAzMTIgMjQ0Ljg2NzE4OCA3Mi45ODQzNzUgQyAyMzQuMTEzMjgxIDUxLjgxNjQwNiAyMTYuNTkzNzUgMzUuNzIyNjU2IDE5NC4wODk4NDQgMzAuMDg1OTM4IEMgMjA1LjU5NzY1NiAzNi42MDU0NjkgMjEwLjE2MDE1NiA1MC4wODIwMzEgMjE5LjgzNTkzOCA1OC42ODM1OTQgWiBNIDE5Ni4yMzQzNzUgMjA1LjI1NzgxMiBDIDIxMi43OTY4NzUgMTg4Ljg3ODkwNiAyMjYuODA0Njg4IDE1Ny45OTIxODggMjI5LjEzMjgxMiAxMjguNzUzOTA2IEMgMjMyLjYzMjgxMiA4NC44OTQ1MzEgMjE3LjI5Mjk2OSA1OC43NzM0MzggMTk1LjUxOTUzMSAzNy45NDUzMTIgQyAxODYuODQ3NjU2IDI5LjY1MjM0NCAxNzQuMjI2NTYyIDI0LjQxNDA2MiAxNjEuOTA2MjUgMTkuMzU5Mzc1IEMgMTM5LjYwMTU2MiAxMC4yMDMxMjUgMTE3LjQ1NzAzMSA0LjY2NDA2MiA4Ny41MjM0MzggOS4zNDc2NTYgQyA2OS4wNTQ2ODggMTIuMjM4MjgxIDQyLjg3ODkwNiAyMi41ODIwMzEgMjYuMDE1NjI1IDMxLjUxNTYyNSBDIDIwLjY3MTg3NSAzNC4zNDM3NSAxMC4yMTQ4NDQgNDAuMTE3MTg4IDkuNTY2NDA2IDQzLjY3MTg3NSBDIDguOTg0Mzc1IDQ2Ljg1MTU2MiAxMy43NTc4MTIgNTMuNjMyODEyIDE2LjAwMzkwNiA1Ny4yNTM5MDYgQyAyNC4zMTI1IDcwLjY1NjI1IDMzLjA0Mjk2OSA4Mi40NDUzMTIgMzkuNjAxNTYyIDk1LjE0ODQzOCBDIDU0LjkwNjI1IDg1LjA0Mjk2OSA3Ni4zNzUgNzcuMzM1OTM4IDk3LjUzNTE1NiA3OC43MDMxMjUgQyAxMzguOTUzMTI1IDgxLjM4MjgxMiAxNzIuNjE3MTg4IDEyMy41MDM5MDYgMTU0LjAzOTA2MiAxNjMuNzg5MDYyIEMgMTM2LjY3NTc4MSAxODkuNDY0ODQ0IDk4LjQxMDE1NiAyMDAuNjE3MTg4IDU2LjA1NDY4OCAxOTYuNjc5Njg4IEMgNTAuNTkzNzUgMjIyLjY4MzU5NCA0Mi44MDg1OTQgMjQ4LjkzMzU5NCA0NC42MTMyODEgMjc4LjE5MTQwNiBDIDY3LjE5NTMxMiAyODIuMDM5MDYyIDkwLjM2NzE4OCAyODQuMTUyMzQ0IDExMC40MTAxNTYgMjg4LjkxNDA2MiBDIDExMy41NzAzMTIgMjcwLjI1NzgxMiAxMTQuNDE0MDYyIDI0OC40OTIxODggMTE5LjcwNzAzMSAyMzAuMjg1MTU2IEMgMTU0LjQyMTg3NSAyMzMuNjE3MTg4IDE3OS45NTMxMjUgMjIxLjM2MzI4MSAxOTYuMjM0Mzc1IDIwNS4yNTc4MTIgWiBNIDE1MS4xNzU3ODEgMjQxLjAwNzgxMiBDIDE0NS4wMzUxNTYgMjU2LjA4MjAzMSAxNDUuMDc4MTI1IDI3Ny4zMzk4NDQgMTM5LjczNDM3NSAyOTMuMjA3MDMxIEMgMTMwLjk3NjU2MiAyOTMuMzYzMjgxIDEyMy44NzEwOTQgMjk4LjgxMjUgMTE1LjQxNDA2MiAyOTguOTI1NzgxIEMgMTA5LjU4OTg0NCAyOTkgMTA1LjEwNTQ2OSAyOTUuOTE3OTY5IDk3LjUzNTE1NiAyOTQuNjMyODEyIEMgODguODQ3NjU2IDI5My4xNjAxNTYgNzYuNTc4MTI1IDI5Mi4yMTQ4NDQgNjYuMDY2NDA2IDI5MS4wNTg1OTQgQyA1Ny4zODI4MTIgMjkwLjEwOTM3NSA0MC45NjA5MzggMjg4LjY0ODQzOCAzNy40NTcwMzEgMjg0LjYyNSBDIDMzLjcxNDg0NCAyODAuMzE2NDA2IDM1Ljg1OTM3NSAyNjYuNDQxNDA2IDM2Ljc0NjA5NCAyNTkuNjAxNTYyIEMgMzcuODUxNTYyIDI1MS4wMTk1MzEgMzkuMTg3NSAyNDEuNTM5MDYyIDQwLjMyMDMxMiAyMzUuMjg5MDYyIEMgNDMuNDIxODc1IDIxOC4xNzE4NzUgNDUuMDM1MTU2IDIwMS44MjgxMjUgNDkuNjE3MTg4IDE4OC4xMDE1NjIgQyA2NC4wMzUxNTYgMTg4LjQ1MzEyNSA3OC4zNzEwOTQgMTg5LjMzMjAzMSA5Mi41MzEyNSAxODguMTAxNTYyIEMgMTE2LjE4NzUgMTg2LjAzNTE1NiAxNDAuNzM0Mzc1IDE3Mi45MDYyNSAxNDkuMDMxMjUgMTU3LjM1NTQ2OSBDIDE1OS45NjQ4NDQgMTM2Ljg3NSAxNDEuMzk4NDM4IDEwNy4xNjc5NjkgMTI4LjI4OTA2MiA5OC4wMDc4MTIgQyAxMTEuNTcwMzEyIDg2LjMyNDIxOSA3OC4yODkwNjIgODUuMjQyMTg4IDU3LjQ4NDM3NSA5NC40Mjk2ODggQyA1MS43ODkwNjIgOTYuOTUzMTI1IDQzLjY2Nzk2OSAxMDUuODUxNTYyIDM3LjQ1NzAzMSAxMDUuMTYwMTU2IEMgMzEuMDQyOTY5IDEwNC40NDE0MDYgMjAuODc1IDgwLjI4MTI1IDE3LjQzMzU5NCA3NS4xMjg5MDYgQyAxMy40Mjk2ODggNjkuMTI1IC0yLjA2NjQwNiA1My4xOTkyMTkgMC4yNjk1MzEgNDIuMjM4MjgxIEMgMS4yMTg3NSAzNy43NzczNDQgMTguMTg3NSAyNi42NTYyNSAyMi40NDE0MDYgMjQuMzYzMjgxIEMgMzIuMDAzOTA2IDE5LjIwNzAzMSA0NSAxNC44MzU5MzggNTcuNDg0Mzc1IDEwLjA2MjUgQyA3Ny43NSAyLjMxMjUgOTcuNDIxODc1IC0xLjMwNDY4OCAxMjQuNzE0ODQ0IDAuNzY5NTMxIEMgMTQwLjY2NDA2MiAxLjk4MDQ2OSAxNTIuMDkzNzUgOS4xNjAxNTYgMTY2LjkxMDE1NiAxMi45MjE4NzUgQyAxNzkuMzQzNzUgMTYuMDgyMDMxIDE5MC4xNjAxNTYgMTcuNDkyMTg4IDIwMS4yNDIxODggMjIuMjE4NzUgQyAyMDkuNDM3NSAyNS43MTQ4NDQgMjE4LjIxODc1IDI5LjgzOTg0NCAyMjMuNDEwMTU2IDMzLjY2MDE1NiBDIDI0OC4zOTA2MjUgNTIuMDI3MzQ0IDI3MC40NTcwMzEgOTAuOTAyMzQ0IDI2My40NjQ4NDQgMTM0LjQ3NjU2MiBDIDI2Mi40Mzc1IDE0MC44NDM3NSAyNTkuNTc4MTI1IDE0OC4zMzU5MzggMjU3Ljc0MjE4OCAxNTUuMjEwOTM4IEMgMjU1LjkyNTc4MSAxNjIuMDE5NTMxIDI1My43OTY4NzUgMTY5LjE3OTY4OCAyNTEuMzA0Njg4IDE3NC41MTU2MjUgQyAyMzQuOTI1NzgxIDIwOS41NDI5NjkgMTk5Ljc1IDIzNi4xMjUgMTUxLjE3NTc4MSAyNDEuMDA3ODEyICIvPgo8L2c+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMikiIGNsaXAtcnVsZT0ibm9uemVybyI+CjxwYXRoIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7ZmlsbDpyZ2IoOTcuMjQ4ODQlLDgxLjU2ODkwOSUsNDUuODc4NjAxJSk7ZmlsbC1vcGFjaXR5OjE7IiBkPSJNIDkzLjk2MDkzOCAzNjMuOTkyMTg4IEMgOTguNDQ1MzEyIDM2My40Njg3NSAxMDEuOTE0MDYyIDM2MS45MzM1OTQgMTA2LjExNzE4OCAzNjEuMTMyODEyIEMgMTAyLjQ3MjY1NiAzNTcuMTQ4NDM4IDk5Ljk0NTMxMiAzNTIuMDUwNzgxIDk1LjM5MDYyNSAzNDguOTc2NTYyIEMgOTUuNTMxMjUgMzU0LjU5NzY1NiA5My4yNDYwOTQgMzU3Ljc5Mjk2OSA5My45NjA5MzggMzYzLjk5MjE4OCBaIE0gMTEzLjI2OTUzMSAzMzUuMzkwNjI1IEMgMTE0LjE5NTMxMiAzMzIuNSAxMTUuMjI2NTYyIDMyOS43MTg3NSAxMTUuNDE0MDYyIDMyNi4wOTc2NTYgQyAxMTIuMzI0MjE5IDMyNi4wODk4NDQgMTEwLjg3ODkwNiAzMjQuNDM3NSAxMDcuNTUwNzgxIDMyNC42NjQwNjIgQyAxMDguNjA1NDY5IDMyOS4wOTM3NSAxMTEuMjE0ODQ0IDMzMS45NjA5MzggMTEzLjI2OTUzMSAzMzUuMzkwNjI1IFogTSAxMDkuNjk1MzEyIDM1NC42OTUzMTIgQyAxMDkuNjQ4NDM4IDM1MC4zNTkzNzUgMTEwLjk5NjA5NCAzNDcuNDE3OTY5IDExMS44Mzk4NDQgMzQzLjk3MjY1NiBDIDEwNy4wMjczNDQgMzM3LjgyMDMxMiAxMDUuMDcwMzEyIDMyOC44MTI1IDk4Ljk2NDg0NCAzMjMuOTQ5MjE5IEMgOTYuMjIyNjU2IDMzOS40MDYyNSA5OS4zNjcxODggMzQ5LjI2MTcxOSAxMDkuNjk1MzEyIDM1NC42OTUzMTIgWiBNIDMzLjg4MjgxMiAzMTguMjMwNDY5IEMgMzEuNTMxMjUgMzMwLjM3ODkwNiAzMi4wNTQ2ODggMzQ0LjUxNTYyNSAzMS43MzgyODEgMzU4LjI3MzQzOCBDIDQ2Ljk1MzEyNSAzNjMuNzQ2MDk0IDcwLjQzNzUgMzY0LjEyODkwNiA4Ni44MDg1OTQgMzY2LjEzNjcxOSBDIDkwLjIxNDg0NCAzNTMuNzY1NjI1IDkzLjA3MDMxMiAzMzYuMTc5Njg4IDkzLjk2MDkzOCAzMjMuOTQ5MjE5IEMgNzMuOTgwNDY5IDMyMi40MDIzNDQgNTIuOTE0MDYyIDMxMS44NDc2NTYgMzMuODgyODEyIDMxOC4yMzA0NjkgWiBNIDEyMy4yODEyNSAzMjEuMDg5ODQ0IEMgMTIxLjQ0MTQwNiAzMzguMDc0MjE5IDExNy43NDIxODggMzUzLjIxMDkzOCAxMTMuMjY5NTMxIDM2Ny41NjY0MDYgQyAxMDUuOTQ1MzEyIDM2Ny43NzM0MzggOTguNzg5MDYyIDM3My40NDkyMTkgOTAuMzg2NzE5IDM3NC43MTQ4NDQgQyA3OS43NjE3MTkgMzc2LjMxNjQwNiA2Ni4xMjEwOTQgMzczLjIzMDQ2OSA1NC42MjUgMzcxLjg1NTQ2OSBDIDQyLjU1ODU5NCAzNzAuNDE0MDYyIDMwLjE5OTIxOSAzNzAuNzMwNDY5IDIzLjE1NjI1IDM2NC43MDcwMzEgQyAyMy4zMzU5MzggMzUzLjI3NzM0NCAyNC44MjAzMTIgMzQyLjc0NjA5NCAyNS4zMDQ2ODggMzMxLjgxNjQwNiBDIDI1LjUgMzI3LjMyMDMxMiAyNC4wOTc2NTYgMzIxLjU0Mjk2OSAyNS4zMDQ2ODggMzE2LjgwMDc4MSBDIDI3LjM2MzI4MSAzMDguNjY3OTY5IDM5LjI1IDMwNS45MDYyNSA1MC4zMzIwMzEgMzA2Ljc4OTA2MiBDIDY0LjczNDM3NSAzMDcuOTQxNDA2IDgzLjkwNjI1IDMxNC43NjE3MTkgMTAwLjM5ODQzOCAzMTYuMDg1OTM4IEMgMTA5LjY2NDA2MiAzMTYuODMyMDMxIDExNy44MjgxMjUgMzE2LjQzMzU5NCAxMjMuMjgxMjUgMzIxLjA4OTg0NCAiLz4KPC9nPgo8L2c+Cjwvc3ZnPgo=' alt='' />
+        <img class='absolute hidden h-auto w-28 -right-60 bottom-10 2xl:block' src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjIxLjI1cHQiIGhlaWdodD0iMzc0Ljk5OTk4OXB0IiB2aWV3Qm94PSIwIDAgMjIxLjI1IDM3NC45OTk5ODkiIHZlcnNpb249IjEuMiI+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAxIj4KICA8cGF0aCBkPSJNIDEgMC42MzI4MTIgTCAyMjAuNTAzOTA2IDAuNjMyODEyIEwgMjIwLjUwMzkwNiAzNzQgTCAxIDM3NCBaIE0gMSAwLjYzMjgxMiAiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8ZyBpZD0ic3VyZmFjZTEiPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDEpIiBjbGlwLXJ1bGU9Im5vbnplcm8iPgo8cGF0aCBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpldmVub2RkO2ZpbGw6cmdiKDk3LjI0ODg0JSw4MS41Njg5MDklLDQ1Ljg3ODYwMSUpO2ZpbGwtb3BhY2l0eToxOyIgZD0iTSAxMS4xNTYyNSAxOTAuMTQ0NTMxIEMgNS41NjI1IDE2OS4wODk4NDQgMS4zODY3MTkgMTUxLjEwOTM3NSA3LjIxNDg0NCAxMjkuMzU5Mzc1IEMgMTIuNjI1IDEwOS4xNjAxNTYgMjguNjA5Mzc1IDkzLjExNzE4OCA0Ni43MTA5MzggODMuNTI3MzQ0IEMgODguNzgxMjUgNjEuMjczNDM4IDE0MS42ODc1IDc1LjQ0MTQwNiAxNjYuOTg0Mzc1IDExNS43NTc4MTIgQyAxNzcuODc1IDEzMy4xMDU0NjkgMTgzLjY5NTMxMiAxNTQuOTk2MDk0IDE3OC4yODEyNSAxNzUuMTk5MjE5IEMgMTcyLjQ1MzEyNSAxOTYuOTQ1MzEyIDE1OS44NDc2NTYgMjEwLjQzMzU5NCAxNDQuNDcyNjU2IDIyNS44NjcxODggQyAxMzkuOTY4NzUgMjMwLjM5MDYyNSAxMzUuNDY0ODQ0IDIzNC45MTAxNTYgMTMxLjI5Mjk2OSAyMzkuNzUgQyAxMjkuMzY3MTg4IDI0MS45ODgyODEgMTI3LjMwODU5NCAyNDQuMTY0MDYyIDEyNS4yOTY4NzUgMjQ2LjMyODEyNSBDIDEyMi45NDkyMTkgMjQ4Ljg2MzI4MSAxMjAuNjA1NDY5IDI1MS4zODY3MTkgMTE4LjI5Njg3NSAyNTMuOTY0ODQ0IEMgMTE1LjAxNTYyNSAyNTcuNjIxMDk0IDEwOC4yODkwNjIgMjY0Ljk4NDM3NSAxMDYuNDg4MjgxIDI2OS40MjU3ODEgQyAxMDUuNDQ1MzEyIDI3MS45NzI2NTYgMTA0LjU5NzY1NiAyNzQuNjE3MTg4IDEwMy43NDIxODggMjc3LjIzODI4MSBDIDk5LjU1NDY4OCAyOTAuMTA5Mzc1IDk0LjU1MDc4MSAzMDUuNjg3NSA3Ny41MDM5MDYgMzAxLjEyNSBMIDMxLjUzNTE1NiAyODguODAwNzgxIEMgMTQuNDkyMTg4IDI4NC4yMzgyODEgMTcuOTM3NSAyNjguMjM0Mzc1IDIwLjc0NjA5NCAyNTUuMDAzOTA2IEMgMjEuMzE2NDA2IDI1Mi4yOTY4NzUgMjEuOTAyMzQ0IDI0OS41OTM3NSAyMi4yODUxNTYgMjQ2Ljg1MTU2MiBDIDIyLjkzNzUgMjQyLjEwOTM3NSAyMC44MDA3ODEgMjMyLjM2NzE4OCAxOS43ODEyNSAyMjcuNTU0Njg4IEMgMTkuMDY2NDA2IDIyNC4xOTE0MDYgMTguMzAwNzgxIDIyMC44MjgxMjUgMTcuNTMxMjUgMjE3LjQ1MzEyNSBDIDE2Ljg2NzE4OCAyMTQuNTc0MjE5IDE2LjE3MTg3NSAyMTEuNjYwMTU2IDE1LjYyNSAyMDguNzYxNzE5IEMgMTQuNDQxNDA2IDIwMi40ODA0NjkgMTIuNzkyOTY5IDE5Ni4zMTI1IDExLjE1NjI1IDE5MC4xNDQ1MzEgWiBNIDExMS40Mjk2ODggNTkuMjQ2MDk0IEwgMTI2LjAxNTYyNSA0LjgwNDY4OCBDIDEyOS45NDE0MDYgNS43MDMxMjUgMTMzLjgzMjAzMSA2LjczODI4MSAxMzcuNjc5Njg4IDcuOTI1NzgxIEwgMTIzLjA4NTkzOCA2Mi4zNjcxODggQyAxMTkuMjYxNzE5IDYxLjExNzE4OCAxMTUuMzcxMDk0IDYwLjA3MDMxMiAxMTEuNDI5Njg4IDU5LjI0NjA5NCBaIE0gMjUuNTE5NTMxIDEzLjUxNTYyNSBDIDI5LjI2OTUzMSAxMS45Mjk2ODggMzMuMDMxMjUgMTAuNDkyMTg4IDM2LjgzMjAzMSA5LjIxMDkzOCBMIDUxLjQ1MzEyNSA2My43NzM0MzggQyA0Ny42OTE0MDYgNjUuMjAzMTI1IDQzLjk3MjY1NiA2Ni44NTU0NjkgNDAuMzIwMzEyIDY4LjcyNjU2MiBaIE0gNzQuODEyNSAxLjI0MjE4OCBDIDc4LjgzNTkzOCAwLjg4MjgxMiA4Mi44NTE1NjIgMC42ODM1OTQgODYuODcxMDk0IDAuNjMyODEyIEwgODYuODcxMDk0IDU2Ljk0OTIxOSBDIDgyLjg1MTU2MiA1Ny4wMzkwNjIgNzguODI4MTI1IDU3LjM1MTU2MiA3NC44MjAzMTIgNTcuODg2NzE5IFogTSAxNzMuNjY3OTY5IDIzLjg3ODkwNiBDIDE3Ny4xMjEwOTQgMjUuOTM3NSAxODAuNSAyOC4xMjg5MDYgMTgzLjgwNDY4OCAzMC40NDE0MDYgTCAxNTUuNDcyNjU2IDc5LjUwMzkwNiBDIDE1Mi4yNjk1MzEgNzcuMDI3MzQ0IDE0OC45Mzc1IDc0Ljc1IDE0NS41MDM5MDYgNzIuNjYwMTU2IFogTSAyMTIuNzAzMTI1IDU2LjMzMjAzMSBDIDIxNS4zNTE1NjIgNTkuMzQzNzUgMjE3Ljg5ODQzOCA2Mi40ODQzNzUgMjIwLjM0NzY1NiA2NS43MjI2NTYgTCAxNzkuOTI5Njg4IDEwNi4xNDA2MjUgQyAxNzcuNzAzMTI1IDEwMi42ODc1IDE3NS4zMDg1OTQgOTkuNDAyMzQ0IDE3Mi43NTM5MDYgOTYuMjg1MTU2IFogTSAzMy41MjczNDQgMzczLjE2Nzk2OSBDIDI5LjUzOTA2MiAzNzIuMDIzNDM4IDI2LjQ2ODc1IDM3MC41OTM3NSAyNC42ODM1OTQgMzY3LjQ5NjA5NCBDIDIzLjA0Mjk2OSAzNjQuNjM2NzE5IDIwLjA4MjAzMSAzNjIuMjk2ODc1IDE3Ljg4NjcxOSAzNTkuNzk2ODc1IEMgMTcuMzg2NzE5IDM1OS4yMjY1NjIgMTcuMzIwMzEyIDM1OC40Mjk2ODggMTcuNzIyNjU2IDM1Ny43ODEyNSBDIDE4LjEyMTA5NCAzNTcuMTI1IDE4Ljg3NSAzNTYuODQ3NjU2IDE5LjYwOTM3NSAzNTcuMDM1MTU2IEwgMzYuNjYwMTU2IDM2MS42MDkzNzUgTCA1My43MTQ4NDQgMzY2LjE3NTc4MSBDIDU0LjQ0OTIxOSAzNjYuMzcxMDk0IDU0Ljk0OTIxOSAzNjcuMDAzOTA2IDU0Ljk3NjU2MiAzNjcuNzU3ODEyIEMgNTUgMzY4LjUxOTUzMSA1NC41NDI5NjkgMzY5LjE3OTY4OCA1My44MjAzMTIgMzY5LjQyMTg3NSBDIDUwLjY2NDA2MiAzNzAuNDk2MDk0IDQ2LjkzNzUgMzcxLjA0Mjk2OSA0NC4wNzQyMTkgMzcyLjcwMzEyNSBDIDQwLjk5NjA5NCAzNzQuNDg0Mzc1IDM3LjYxNzE4OCAzNzQuMTgzNTk0IDMzLjU4NTkzOCAzNzMuMTg3NSBDIDMzLjU3MDMxMiAzNzMuMTc1NzgxIDMzLjU0Njg3NSAzNzMuMTY3OTY5IDMzLjUyNzM0NCAzNzMuMTY3OTY5IFogTSAxMi44MjgxMjUgMzM2LjA4OTg0NCBMIDcwLjA1ODU5NCAzNTEuNDI5Njg4IEMgNzUuMzgyODEyIDM1Mi44NTU0NjkgNzguOTE3OTY5IDM1Ny4wODIwMzEgNzcuOTE0MDYyIDM2MC44MTY0MDYgTCA3Ny43NjU2MjUgMzYxLjM3ODkwNiBDIDc2Ljc2OTUzMSAzNjUuMTA5Mzc1IDcxLjU4OTg0NCAzNjYuOTk2MDk0IDY2LjI2NTYyNSAzNjUuNTcwMzEyIEwgOS4wMzkwNjIgMzUwLjIzODI4MSBDIDMuNzE0ODQ0IDM0OC44MDQ2ODggMC4xNzk2ODggMzQ0LjU4MjAzMSAxLjE3OTY4OCAzNDAuODUxNTYyIEwgMS4zMjQyMTkgMzQwLjI4OTA2MiBDIDIuMzI4MTI1IDMzNi41NTQ2ODggNy41IDMzNC42Njc5NjkgMTIuODI4MTI1IDMzNi4wODk4NDQgWiBNIDE3LjY4MzU5NCAzMTcuOTgwNDY5IEwgNzQuOTAyMzQ0IDMzMy4zMjAzMTIgQyA4MC4yMzA0NjkgMzM0Ljc0MjE4OCA4My43NjU2MjUgMzM4Ljk3MjY1NiA4Mi43Njk1MzEgMzQyLjcwMzEyNSBMIDgyLjYxNzE4OCAzNDMuMjYxNzE5IEMgODEuNjE3MTg4IDM0NyA3Ni40NDUzMTIgMzQ4Ljg4NjcxOSA3MS4xMTcxODggMzQ3LjQ2MDkzOCBMIDEzLjg5MDYyNSAzMzIuMTI4OTA2IEMgOC41NjY0MDYgMzMwLjY5NTMxMiA1LjAzMTI1IDMyNi40NzI2NTYgNi4wMzEyNSAzMjIuNzQ2MDk0IEwgNi4xNzU3ODEgMzIyLjE4NzUgQyA3LjE3NTc4MSAzMTguNDQ5MjE5IDEyLjM1NTQ2OSAzMTYuNTU4NTk0IDE3LjY4MzU5NCAzMTcuOTgwNDY5IFogTSAyMi42NDg0MzggMjk5LjQ0MTQwNiBMIDc5Ljg3NSAzMTQuNzg1MTU2IEMgODUuMTk1MzEyIDMxNi4yMDcwMzEgODguNzM4MjgxIDMyMC40Mjk2ODggODcuNzM0Mzc1IDMyNC4xNjc5NjkgTCA4Ny41ODU5MzggMzI0LjczMDQ2OSBDIDg2LjU4OTg0NCAzMjguNDU3MDMxIDgxLjQxMDE1NiAzMzAuMzUxNTYyIDc2LjA4MjAzMSAzMjguOTI1NzgxIEwgMTguODU1NDY5IDMxMy41OTM3NSBDIDEzLjUzNTE1NiAzMTIuMTY0MDYyIDkuOTkyMTg4IDMwNy45Mzc1IDEwLjk5NjA5NCAzMDQuMjA3MDMxIEwgMTEuMTQ0NTMxIDMwMy42NTIzNDQgQyAxMi4xNDg0MzggMjk5LjkxNDA2MiAxNy4zMjAzMTIgMjk4LjAyMzQzOCAyMi42NDg0MzggMjk5LjQ0MTQwNiBaIE0gMzQuNjAxNTYyIDI3Mi45MTQwNjIgQyAzNC45NzI2NTYgMjczLjA1ODU5NCAzNS40MjU3ODEgMjczLjE5MTQwNiAzNS42OTE0MDYgMjczLjI2NTYyNSBMIDgxLjY3MTg3NSAyODUuNTc4MTI1IEMgODEuOTQxNDA2IDI4NS42NTIzNDQgODIuMzk4NDM4IDI4NS43NjE3MTkgODIuNzg1MTU2IDI4NS44MTI1IEMgODQuOTAyMzQ0IDI4My40MDYyNSA4Ny41NzgxMjUgMjc0LjkyMTg3NSA4OC40NDE0MDYgMjcyLjI1NzgxMiBDIDg5LjQyMTg3NSAyNjkuMjY1NjI1IDkwLjM5ODQzOCAyNjYuMjg5MDYyIDkxLjU3ODEyNSAyNjMuMzcxMDk0IEMgOTQuNDQ5MjE5IDI1Ni4zMDg1OTQgMTAxLjE3OTY4OCAyNDguOTI5Njg4IDEwNi4zMjQyMTkgMjQzLjE5OTIxOSBDIDEwOC42OTE0MDYgMjQwLjU3ODEyNSAxMTEuMDkzNzUgMjM3Ljk4NDM3NSAxMTMuNTA3ODEyIDIzNS4zODI4MTIgQyAxMTUuMzkwNjI1IDIzMy4zNTkzNzUgMTE3LjI5Njg3NSAyMzEuMzQzNzUgMTE5LjEwMTU2MiAyMjkuMjUgQyAxMjMuNTI3MzQ0IDIyNC4xMTcxODggMTI4LjI4OTA2MiAyMTkuMzA0Njg4IDEzMy4wNzQyMTkgMjE0LjUwNzgxMiBDIDE0Ni4yMDMxMjUgMjAxLjMzNTkzOCAxNTcuNzg5MDYyIDE4OS41MTE3MTkgMTYyLjczODI4MSAxNzEuMDM1MTU2IEMgMTY2Ljk2NDg0NCAxNTUuMjgxMjUgMTYxLjgxNjQwNiAxMzcuNzg1MTU2IDE1My4zNTkzNzUgMTI0LjMyNDIxOSBDIDEzMi41NDI5NjkgOTEuMTIxMDk0IDg4Ljg2NzE4OCA3OS40MjU3ODEgNTQuMjM4MjgxIDk3Ljc1MzkwNiBDIDQwLjE4MzU5NCAxMDUuMTk1MzEyIDI2Ljk4MDQ2OSAxMTcuNzY5NTMxIDIyLjc1NzgxMiAxMzMuNTE5NTMxIEMgMTcuODA0Njg4IDE1MiAyMS45MjU3ODEgMTY4LjAzMTI1IDI2LjcwNzAzMSAxODYuMDExNzE5IEMgMjguNDQ5MjE5IDE5Mi41NjI1IDMwLjE3NTc4MSAxOTkuMDk3NjU2IDMxLjQzNzUgMjA1Ljc1NzgxMiBDIDMxLjk0OTIxOSAyMDguNDgwNDY5IDMyLjYwMTU2MiAyMTEuMTc5Njg4IDMzLjIxNDg0NCAyMTMuODY3MTg4IEMgMzQuMDAzOTA2IDIxNy4zMjgxMjUgMzQuNzg5MDYyIDIyMC43Njk1MzEgMzUuNTI3MzQ0IDIyNC4yMzA0NjkgQyAzNy4xMTMyODEgMjMxLjc2MTcxOSAzOS4yNjE3MTkgMjQxLjUxMTcxOSAzOC4yMTg3NSAyNDkuMDc0MjE5IEMgMzcuNzg1MTU2IDI1Mi4xODc1IDM3LjEzMjgxMiAyNTUuMjUzOTA2IDM2LjQ4MDQ2OSAyNTguMzM1OTM4IEMgMzUuOTEwMTU2IDI2MS4wNzgxMjUgMzMuOTc2NTYyIDI2OS43NjE3MTkgMzQuNjAxNTYyIDI3Mi45MTQwNjIgWiBNIDM0LjYwMTU2MiAyNzIuOTE0MDYyICIvPgo8L2c+CjwvZz4KPC9zdmc+Cg==' alt='' />
+      </div>
+
+      <!-- Question / Answer 1 -->
+      <li class='w-full px-5 py-6 bg-white sm:px-12 sm:py-8 rounded-3xl' x-data="{ open: false }">
+
+        <!-- Question -->
+        <button class='flex items-center justify-between w-full text-lg sm:text-xl group' @click="open = !open">
+          <span class='font-medium text-left text-purple-900 duration-300 ease-in-out group-hover:text-purple-600'>What are your hours and schedules?</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-5 h-6 ml-3 text-purple-700 duration-300 ease-in-out sm:w-6 sm:h-6 sm:ml-6 group-hover:text-purple-600" :class="{'rotate-180': open}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        <!-- Answer -->
+        <div class='relative overflow-hidden duration-700 max-h-0' x-ref="question1" x-bind:style="open ? 'max-height: ' + $refs.question1.scrollHeight + 'px' : ''">
+          <div class='mt-3 text-base leading-relaxed text-purple-800 sm:text-lg'>
+            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada.
+          </div>
+        </div>
+
+      </li>
+
+      <!-- Question / Answer 2 -->
+      <li class='w-full px-5 py-6 bg-white sm:px-12 sm:py-8 rounded-3xl' x-data="{ open: false }">
+
+        <!-- Question -->
+        <button class='flex items-center justify-between w-full text-lg sm:text-xl group' @click="open = !open">
+          <span class='font-medium text-left text-purple-900 duration-300 ease-in-out group-hover:text-purple-600'>What is your Discipline Policy?</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-5 h-6 ml-3 text-purple-700 duration-300 ease-in-out sm:w-6 sm:h-6 sm:ml-6 group-hover:text-purple-600" :class="{'rotate-180': open}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        <!-- Answer -->
+        <div class='relative overflow-hidden duration-700 max-h-0' x-ref="question1" x-bind:style="open ? 'max-height: ' + $refs.question1.scrollHeight + 'px' : ''">
+          <div class='mt-3 text-base leading-relaxed text-purple-800 sm:text-lg'>
+            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada.
+          </div>
+        </div>
+
+      </li>
+
+      <!-- Question / Answer 3 -->
+      <li class='w-full px-5 py-6 bg-white sm:px-12 sm:py-8 rounded-3xl' x-data="{ open: false }">
+
+        <!-- Question -->
+        <button class='flex items-center justify-between w-full text-lg sm:text-xl group' @click="open = !open">
+          <span class='font-medium text-left text-purple-900 duration-300 ease-in-out group-hover:text-purple-600'>Do you accommodate allergies and dietary restrictions?</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-5 h-6 ml-3 text-purple-700 duration-300 ease-in-out sm:w-6 sm:h-6 sm:ml-6 group-hover:text-purple-600" :class="{'rotate-180': open}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        <!-- Answer -->
+        <div class='relative overflow-hidden duration-700 max-h-0' x-ref="question1" x-bind:style="open ? 'max-height: ' + $refs.question1.scrollHeight + 'px' : ''">
+          <div class='mt-3 text-base leading-relaxed text-purple-800 sm:text-lg'>
+            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada.
+          </div>
+        </div>
+
+      </li>
+      
+      <!-- Question / Answer 4 -->
+      <li class='w-full px-5 py-6 bg-white sm:px-12 sm:py-8 rounded-3xl' x-data="{ open: false }">
+
+        <!-- Question -->
+        <button class='flex items-center justify-between w-full text-lg sm:text-xl group' @click="open = !open">
+          <span class='font-medium text-left text-purple-900 duration-300 ease-in-out group-hover:text-purple-600'>Do you offer any transportation options?</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-5 h-6 ml-3 text-purple-700 duration-300 ease-in-out sm:w-6 sm:h-6 sm:ml-6 group-hover:text-purple-600" :class="{'rotate-180': open}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        <!-- Answer -->
+        <div class='relative overflow-hidden duration-700 max-h-0' x-ref="question1" x-bind:style="open ? 'max-height: ' + $refs.question1.scrollHeight + 'px' : ''">
+          <div class='mt-3 text-base leading-relaxed text-purple-800 sm:text-lg'>
+            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada.
+          </div>
+        </div>
+
+      </li>
+
+      <!-- Question / Answer 5 -->
+      <li class='w-full px-5 py-6 bg-white sm:px-12 sm:py-8 rounded-3xl' x-data="{ open: false }">
+
+        <!-- Question -->
+        <button class='flex items-center justify-between w-full text-lg sm:text-xl group' @click="open = !open">
+          <span class='font-medium text-left text-purple-900 duration-300 ease-in-out group-hover:text-purple-600'>
+            Do you welcome parent involvement? Can I stop by unannounced?
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-5 h-6 ml-3 text-purple-700 duration-300 ease-in-out sm:w-6 sm:h-6 sm:ml-6 group-hover:text-purple-600" :class="{'rotate-180': open}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        <!-- Answer -->
+        <div class='relative overflow-hidden duration-700 max-h-0' x-ref="question1" x-bind:style="open ? 'max-height: ' + $refs.question1.scrollHeight + 'px' : ''">
+          <div class='mt-3 text-base leading-relaxed text-purple-800 sm:text-lg'>
+            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada.
+          </div>
+        </div>
+
+      </li>
+
+      <!-- Question / Answer 6 -->
+      <li class='w-full px-5 py-6 bg-white sm:px-12 sm:py-8 rounded-3xl' x-data="{ open: false }">
+
+        <!-- Question -->
+        <button class='flex items-center justify-between w-full text-lg sm:text-xl group' @click="open = !open">
+          <span class='font-medium text-left text-purple-900 duration-300 ease-in-out group-hover:text-purple-600'>
+            What is your children-to-teacher ratio?
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-5 h-6 ml-3 text-purple-700 duration-300 ease-in-out sm:w-6 sm:h-6 sm:ml-6 group-hover:text-purple-600" :class="{'rotate-180': open}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        <!-- Answer -->
+        <div class='relative overflow-hidden duration-700 max-h-0' x-ref="question1" x-bind:style="open ? 'max-height: ' + $refs.question1.scrollHeight + 'px' : ''">
+          <div class='mt-3 text-base leading-relaxed text-purple-800 sm:text-lg'>
+            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada.
+          </div>
+        </div>
+
+      </li>
+
+    </ul>
+
+  </div>
+  
+</section>
+
+    <!-- Call to action -->
+    <section class='py-24 bg-white sm:py-32'>
+
+  <!-- Container -->
+  <div class='max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8'>
+
+    <!-- Sunrise image -->
+    <img class='mx-auto w-72' src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjIxLjI1cHQiIGhlaWdodD0iOTMuNzQ5OTk3cHQiIHZpZXdCb3g9IjAgMCAyMjEuMjUgOTMuNzQ5OTk3IiB2ZXJzaW9uPSIxLjIiPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMSI+CiAgPHBhdGggZD0iTSAzNyA0MCBMIDE4MyA0MCBMIDE4MyA5My40Njg3NSBMIDM3IDkzLjQ2ODc1IFogTSAzNyA0MCAiLz4KPC9jbGlwUGF0aD4KPGNsaXBQYXRoIGlkPSJjbGlwMiI+CiAgPHBhdGggZD0iTSAxMDggMC4xNjc5NjkgTCAxMTIgMC4xNjc5NjkgTCAxMTIgMjggTCAxMDggMjggWiBNIDEwOCAwLjE2Nzk2OSAiLz4KPC9jbGlwUGF0aD4KPGNsaXBQYXRoIGlkPSJjbGlwMyI+CiAgPHBhdGggZD0iTSAxOTMgNzcgTCAyMjAuNTAzOTA2IDc3IEwgMjIwLjUwMzkwNiA4OSBMIDE5MyA4OSBaIE0gMTkzIDc3ICIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+CjxnIGlkPSJzdXJmYWNlMSI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMSkiIGNsaXAtcnVsZT0ibm9uemVybyI+CjxwYXRoIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7ZmlsbDpyZ2IoOTcuMjQ4ODQlLDgxLjU2ODkwOSUsNDUuODc4NjAxJSk7ZmlsbC1vcGFjaXR5OjE7IiBkPSJNIDExMC4yODEyNSA0MC42NDQ1MzEgQyA3Ny45NTMxMjUgNDAuNjQ0NTMxIDUwLjEzNjcxOSA2Mi4zNjMyODEgMzcuNzQ2MDk0IDkzLjUyMzQzOCBDIDUxLjU4NTkzOCA2NS40MTAxNTYgNzguODc1IDQ2LjI4MTI1IDExMC4yODEyNSA0Ni4yODEyNSBDIDE0MS42ODc1IDQ2LjI4MTI1IDE2OC45NzY1NjIgNjUuNDEwMTU2IDE4Mi44MTY0MDYgOTMuNTIzNDM4IEMgMTcwLjQyNTc4MSA2Mi4zNjMyODEgMTQyLjYxMzI4MSA0MC42NDQ1MzEgMTEwLjI4MTI1IDQwLjY0NDUzMSBaIE0gMTEwLjI4MTI1IDQwLjY0NDUzMSAiLz4KPC9nPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDIpIiBjbGlwLXJ1bGU9Im5vbnplcm8iPgo8cGF0aCBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpldmVub2RkO2ZpbGw6cmdiKDk3LjI0ODg0JSw4MS41Njg5MDklLDQ1Ljg3ODYwMSUpO2ZpbGwtb3BhY2l0eToxOyIgZD0iTSAxMTAuMjgxMjUgMC4yMzgyODEgQyAxMDkuMzYzMjgxIDAuMjM4MjgxIDEwOC42MDkzNzUgMC45OTIxODggMTA4LjYwOTM3NSAxLjkxNDA2MiBMIDEwOC42MDkzNzUgMjYuMjczNDM4IEMgMTA4LjYwOTM3NSAyNy4xOTUzMTIgMTA5LjM2MzI4MSAyNy45NDkyMTkgMTEwLjI4MTI1IDI3Ljk0OTIxOSBDIDExMS4yMDMxMjUgMjcuOTQ5MjE5IDExMS45NTMxMjUgMjcuMTk1MzEyIDExMS45NTMxMjUgMjYuMjczNDM4IEwgMTExLjk1MzEyNSAxLjkxNDA2MiBDIDExMS45NTMxMjUgMC45OTIxODggMTExLjIwMzEyNSAwLjIzODI4MSAxMTAuMjgxMjUgMC4yMzgyODEgWiBNIDExMC4yODEyNSAwLjIzODI4MSAiLz4KPC9nPgo8cGF0aCBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpldmVub2RkO2ZpbGw6cmdiKDk3LjI0ODg0JSw4MS41Njg5MDklLDQ1Ljg3ODYwMSUpO2ZpbGwtb3BhY2l0eToxOyIgZD0iTSAxOTcuNTYyNSA0MC4zMDg1OTQgQyAxOTYuOTk2MDk0IDM5LjU4MjAzMSAxOTUuOTQxNDA2IDM5LjQ0OTIxOSAxOTUuMjE0ODQ0IDQwLjAxNTYyNSBMIDE3Ni4wMzUxNTYgNTQuOTYwOTM4IEMgMTc1LjMwODU5NCA1NS41MjczNDQgMTc1LjE3OTY4OCA1Ni41ODU5MzggMTc1Ljc0MjE4OCA1Ny4zMTY0MDYgQyAxNzYuMzA0Njg4IDU4LjA0Mjk2OSAxNzcuMzYzMjgxIDU4LjE3NTc4MSAxNzguMDg5ODQ0IDU3LjYwOTM3NSBMIDE5Ny4yNjU2MjUgNDIuNjY0MDYyIEMgMTk3Ljk5MjE4OCA0Mi4wOTc2NTYgMTk4LjEyNSA0MS4wMzkwNjIgMTk3LjU2MjUgNDAuMzA4NTk0IFogTSAxOTcuNTYyNSA0MC4zMDg1OTQgIi8+CjxwYXRoIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7ZmlsbDpyZ2IoOTcuMjQ4ODQlLDgxLjU2ODkwOSUsNDUuODc4NjAxJSk7ZmlsbC1vcGFjaXR5OjE7IiBkPSJNIDE1OC42MjEwOTQgMTAuMjMwNDY5IEMgMTU3LjgwNDY4OCA5LjgwODU5NCAxNTYuNzkyOTY5IDEwLjEzNjcxOSAxNTYuMzcxMDk0IDEwLjk1NzAzMSBMIDE0NS4yNTc4MTIgMzIuNjE3MTg4IEMgMTQ0LjgzNTkzOCAzMy40Mzc1IDE0NS4xNjQwNjIgMzQuNDUzMTI1IDE0NS45ODA0NjkgMzQuODc1IEMgMTQ2Ljc5Njg3NSAzNS4yOTY4NzUgMTQ3LjgxMjUgMzQuOTcyNjU2IDE0OC4yMzA0NjkgMzQuMTUyMzQ0IEwgMTU5LjM0Mzc1IDEyLjQ4ODI4MSBDIDE1OS43NjU2MjUgMTEuNjcxODc1IDE1OS40NDE0MDYgMTAuNjU2MjUgMTU4LjYyMTA5NCAxMC4yMzA0NjkgWiBNIDE1OC42MjEwOTQgMTAuMjMwNDY5ICIvPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDMpIiBjbGlwLXJ1bGU9Im5vbnplcm8iPgo8cGF0aCBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpldmVub2RkO2ZpbGw6cmdiKDk3LjI0ODg0JSw4MS41Njg5MDklLDQ1Ljg3ODYwMSUpO2ZpbGwtb3BhY2l0eToxOyIgZD0iTSAyMjAuMjU3ODEyIDc4LjM3NSBDIDIxOS45NzI2NTYgNzcuNDk2MDk0IDIxOS4wMjczNDQgNzcuMDA3ODEyIDIxOC4xNTIzNDQgNzcuMjkyOTY5IEwgMTk1LjA0Mjk2OSA4NC43OTI5NjkgQyAxOTQuMTY3OTY5IDg1LjA3NDIxOSAxOTMuNjgzNTk0IDg2LjAyNzM0NCAxOTMuOTY0ODQ0IDg2LjkwMjM0NCBDIDE5NC4yNSA4Ny43ODEyNSAxOTUuMTk1MzEyIDg4LjI2NTYyNSAxOTYuMDcwMzEyIDg3Ljk4NDM3NSBMIDIxOS4xNzk2ODggODAuNDg0Mzc1IEMgMjIwLjA1NDY4OCA4MC4yMDMxMjUgMjIwLjUzOTA2MiA3OS4yNSAyMjAuMjU3ODEyIDc4LjM3NSBaIE0gMjIwLjI1NzgxMiA3OC4zNzUgIi8+CjwvZz4KPHBhdGggc3R5bGU9IiBzdHJva2U6bm9uZTtmaWxsLXJ1bGU6ZXZlbm9kZDtmaWxsOnJnYig5Ny4yNDg4NCUsODEuNTY4OTA5JSw0NS44Nzg2MDElKTtmaWxsLW9wYWNpdHk6MTsiIGQ9Ik0gMjMuMDAzOTA2IDQwLjMwODU5NCBDIDIzLjU2NjQwNiAzOS41ODIwMzEgMjQuNjI1IDM5LjQ0OTIxOSAyNS4zNDc2NTYgNDAuMDE1NjI1IEwgNDQuNTI3MzQ0IDU0Ljk2MDkzOCBDIDQ1LjI1MzkwNiA1NS41MjczNDQgNDUuMzg2NzE5IDU2LjU4NTkzOCA0NC44MjQyMTkgNTcuMzE2NDA2IEMgNDQuMjU3ODEyIDU4LjA0Mjk2OSA0My4yMDMxMjUgNTguMTc1NzgxIDQyLjQ3NjU2MiA1Ny42MDkzNzUgTCAyMy4yOTY4NzUgNDIuNjY0MDYyIEMgMjIuNTcwMzEyIDQyLjA5NzY1NiAyMi40Mzc1IDQxLjAzOTA2MiAyMy4wMDM5MDYgNDAuMzA4NTk0IFogTSAyMy4wMDM5MDYgNDAuMzA4NTk0ICIvPgo8cGF0aCBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpldmVub2RkO2ZpbGw6cmdiKDk3LjI0ODg0JSw4MS41Njg5MDklLDQ1Ljg3ODYwMSUpO2ZpbGwtb3BhY2l0eToxOyIgZD0iTSA2MS45NDE0MDYgMTAuMjMwNDY5IEMgNjIuNzU3ODEyIDkuODA4NTk0IDYzLjc3MzQzOCAxMC4xMzY3MTkgNjQuMTkxNDA2IDEwLjk1NzAzMSBMIDc1LjMwNDY4OCAzMi42MTcxODggQyA3NS43MjY1NjIgMzMuNDM3NSA3NS40MDIzNDQgMzQuNDUzMTI1IDc0LjU4MjAzMSAzNC44NzUgQyA3My43NjU2MjUgMzUuMjk2ODc1IDcyLjc1MzkwNiAzNC45NzI2NTYgNzIuMzMyMDMxIDM0LjE1MjM0NCBMIDYxLjIxODc1IDEyLjQ4ODI4MSBDIDYwLjgwMDc4MSAxMS42NzE4NzUgNjEuMTI1IDEwLjY1NjI1IDYxLjk0MTQwNiAxMC4yMzA0NjkgWiBNIDYxLjk0MTQwNiAxMC4yMzA0NjkgIi8+CjxwYXRoIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7ZmlsbDpyZ2IoOTcuMjQ4ODQlLDgxLjU2ODkwOSUsNDUuODc4NjAxJSk7ZmlsbC1vcGFjaXR5OjE7IiBkPSJNIDAuMzA4NTk0IDc4LjM3NSBDIDAuNTg5ODQ0IDc3LjQ5NjA5NCAxLjUzOTA2MiA3Ny4wMDc4MTIgMi40MTQwNjIgNzcuMjkyOTY5IEwgMjUuNTIzNDM4IDg0Ljc5Mjk2OSBDIDI2LjM5ODQzOCA4NS4wNzQyMTkgMjYuODc4OTA2IDg2LjAyNzM0NCAyNi41OTc2NTYgODYuOTAyMzQ0IEMgMjYuMzEyNSA4Ny43ODEyNSAyNS4zNjcxODggODguMjY1NjI1IDI0LjQ5MjE4OCA4Ny45ODQzNzUgTCAxLjM4MjgxMiA4MC40ODQzNzUgQyAwLjUwNzgxMiA4MC4yMDMxMjUgMC4wMjM0Mzc1IDc5LjI1IDAuMzA4NTk0IDc4LjM3NSBaIE0gMC4zMDg1OTQgNzguMzc1ICIvPgo8L2c+Cjwvc3ZnPgo='>
+
+    <!-- Header -->
+    <h2 class='max-w-3xl mx-auto mt-6 text-center text-purple-900 h1'>
+      <span class="block">Giving your child a</span>
+
+      <!-- Underlined text -->
+      <span class="relative block">
+        <span class='relative'>
+          <img class='absolute inset-0 transform translate-y-9 sm:translate-y-11 xl:translate-y-14' src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODQ0LjVwdCIgaGVpZ2h0PSI0OHB0IiB2aWV3Qm94PSIwIDAgODQ0LjUgNDgiIHZlcnNpb249IjEuMiI+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAxIj4KICA8cGF0aCBkPSJNIDEyLjUgMCBMIDgzMS45NjA5MzggMCBMIDgzMS45NjA5MzggNDcuMDE5NTMxIEwgMTIuNSA0Ny4wMTk1MzEgWiBNIDEyLjUgMCAiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8ZyBpZD0ic3VyZmFjZTEiPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDEpIiBjbGlwLXJ1bGU9Im5vbnplcm8iPgo8cGF0aCBzdHlsZT0iIHN0cm9rZTpub25lO2ZpbGwtcnVsZTpub256ZXJvO2ZpbGw6cmdiKDgyLjM0ODYzMyUsNzcuNjQ4OTI2JSw5OC4wMzkyNDYlKTtmaWxsLW9wYWNpdHk6MTsiIGQ9Ik0gODE5LjYwMTU2MiA3Ljk3NjU2MiBDIDYxMC4yNDIxODggLTAuNTAzOTA2IDQwMC42MzI4MTIgLTIuNDY4NzUgMTkxLjE1MjM0NCAyLjE4NzUgQyAxMzEuNjYwMTU2IDMuNTExNzE5IDcyLjE3NTc4MSA1LjM3ODkwNiAxMi43MTQ4NDQgNy43NTc4MTIgQyAxMS4zMzIwMzEgNy44MDg1OTQgMTYuODA0Njg4IDQ3LjYyODkwNiAyNC4zMjAzMTIgNDcuMzI4MTI1IEMgMjMzLjY3OTY4OCAzOC45NjA5MzggNDQzLjI4OTA2MiAzNy4xMTMyODEgNjUyLjc2NTYyNSA0MS44ODY3MTkgQyA3MTIuMjYxNzE5IDQzLjIzODI4MSA3NzEuNzQyMTg4IDQ1LjE0MDYyNSA4MzEuMjA3MDMxIDQ3LjU1MDc4MSBDIDgzMy44MjAzMTIgNDcuNjUyMzQ0IDgyOC44MTY0MDYgMjguNDA2MjUgODI4LjM3MTA5NCAyNi44ODI4MTIgQyA4MjcuNDUzMTI1IDIzLjc0MjE4OCA4MjQuMTA5Mzc1IDguMTYwMTU2IDgxOS42MDE1NjIgNy45NzY1NjIgIi8+CjwvZz4KPC9nPgo8L3N2Zz4K'>
+          <span class='relative'>brighter future</span>
+        </span>
+      </span>
+
+    </h2>
+
+    <!-- CTA button -->
+    <div class='flex justify-center mt-12 xl:mt-14'>
+      <a
+          href='#'
+          class="text-lg font-semibold text-purple-900 bg-yellow-500 btn hover:bg-yellow-600 group"
+        >
+          Enroll today
+
+          <!-- Tablericon name: arrow-narrow-right -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 ml-3 group-hover:animate-horizontal-bounce" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <line x1="15" y1="16" x2="19" y2="12" />
+            <line x1="15" y1="8" x2="19" y2="12" />
+          </svg>
+        </a>
+        
+    </div>
+  </div>
+
+</section>
+
+    <!-- Footer -->
+    <footer class='px-4 pt-16 space-y-8 bg-yellow-100 divide-y sm:pt-20 sm:px-6 lg:px-8 divide-purple-400/20'>
+
+  <!-- Top section: blocks -->
+  <div class='grid max-w-md mx-auto gap-y-8 sm:gapy-12 sm:gap-x-8 md:gap-x-12 sm:max-w-none lg:max-w-screen-2xl sm:grid-cols-2 lg:grid-cols-11 lg:gap-8 xl:gap-12'>
+
+    <!-- Block 1 -->
+    <div class='flex flex-col lg:mx-auto lg:col-span-4'>
+
+      <!-- Logo -->
+      <div class='flex items-center'>
+        <div class="flex-grow-0 flex-shrink-0 w-60">
+          <a href="index.html">
+            <img src="images/bright-logo-6.png" alt="Bright" class="h-auto"/>
+          </a>
+        </div>
+      </div>
+
+      <!-- Mission statement -->
+      <div class='mt-6 text-lg text-purple-800'>
+        Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sit amet quam vehicula elementum sed sit.
+      </div>
+
+      <!-- Social links -->
+      <div class='w-full mt-5 lg:mt-6'>
+        <div class='flex justify-start space-x-4'>
+
+          <!-- Instagram -->
+          <a class="flex items-center justify-center w-10 h-10 text-white duration-300 ease-in-out bg-purple-500 rounded-full hover:bg-purple-600" href="#">
+
+            <!-- TablerIcon name: brand-instagram -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <rect x="4" y="4" width="16" height="16" rx="4" />
+              <circle cx="12" cy="12" r="3" />
+              <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+            </svg>
+
+          </a>
+
+          <!-- Facebook -->
+          <a class="flex items-center justify-center w-10 h-10 text-white duration-300 ease-in-out bg-purple-500 rounded-full hover:bg-purple-600" href="#">
+
+            <!-- TablerIcon name: brand-facebook -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+
+          </a>
+
+          <!-- Twitter -->
+          <a class="flex items-center justify-center w-10 h-10 text-white transition duration-300 ease-in-out bg-purple-500 rounded-full hover:bg-purple-600" href="#">
+
+            <!-- TablerIcon name: brand-twitter -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+            </svg>
+
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Block 2 -->
+    <div class='flex-shrink sm:order-3 lg:order-none lg:col-span-2'>
+      <h6 class='relative text-xl font-bold tracking-wide text-purple-900'>
+        <span class='relative z-20'>Programs</span>
+        <span class='absolute left-0 z-10 w-12 h-1 rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-500 -bottom-1'></span>
+      </h6>
+      
+      <!-- Program links -->
+      <ul class='mt-6 text-lg divide-y divide-purple-400/20'>
+        <li class='pb-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='index.html'>
+            Toddler Program
+          </a>
+        </li>
+        <li class='py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='about-us.html'>
+            Preschool
+          </a>
+        </li>
+        <li class='py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='gallery.html'>
+            Kindergarten
+          </a>
+        </li>
+        <li class='py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='parents.html'>
+            Elementary School
+          </a>
+        </li>
+        <li class='pt-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='contact.html'>
+            Summer Camp
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <!-- Block 3 -->
+    <div class='flex-shrink sm:order-4 lg:order-none lg:col-span-2'>
+      <h6 class='relative text-xl font-bold tracking-wide text-purple-900'>
+        <span class='relative z-20'>Site Links</span>
+        <span class='absolute left-0 z-10 w-12 h-1 rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-500 -bottom-1'></span>
+      </h6>
+
+      <!-- Site links -->
+      <ul class='mt-6 text-lg divide-y divide-purple-400/20'>
+        <li class='pb-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='index.html'>
+            Home
+          </a>
+        </li>
+        <li class='py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='about-us.html'>
+            About us
+          </a>
+        </li>
+        <li class='py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='gallery.html'>
+            Gallery
+          </a>
+        </li>
+        <li class='py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='parents.html'>
+            Parents
+          </a>
+        </li>
+        <li class='pt-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600'>
+          <a href='contact.html'>
+            Contact us
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <!-- Block 4 -->
+    <div class='sm:order-2 lg:order-none lg:col-span-3 lg:mx-auto '>
+      <h6 class='relative text-xl font-bold tracking-wide text-purple-900'>
+        <span class='relative z-20'>Contact us</span>
+        <span class='absolute left-0 z-10 w-12 h-1 rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-500 -bottom-1'></span>
+      </h6>
+
+      <!-- Contact information -->
+      <ul class='flex flex-col mt-6 space-y-5'>
+
+        <!-- Address -->
+        <li class="flex flex-shrink max-w-xs">
+          <div>
+            <span class="flex items-center justify-center bg-yellow-400 rounded-2xl w-11 h-11">
+
+              <!-- TablerIcon name: map-pin -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-purple-700" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+              </svg>
+
+            </span>
+          </div>
+          <div class="flex-1 mt-0 ml-3 xl:ml-4">
+            <h5 class="flex items-center text-base font-semibold text-purple-900">
+              Address
+            </h5>
+            <p class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90">
+              958 McKinley Avenue Littleton, CO 80120
+            </p>
+          </div>
+        </li>
+
+        <!-- Email -->
+        <li class="flex flex-shrink-0">
+          <div>
+            <span class="flex items-center justify-center bg-purple-200 rounded-2xl w-11 h-11">
+
+              <!-- TablerIcon name: mail -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-purple-700" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <polyline points="3 7 12 13 21 7" />
+              </svg>
+
+            </span>
+          </div>
+          <div class="flex-1 ml-3 xl:ml-4">
+            <h5 class="flex items-center text-base font-semibold text-purple-900">
+              Email
+            </h5>
+            <p class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90">
+              hello@bright.com
+            </p>
+          </div>
+        </li>
+
+        <!-- Phone number -->
+        <li class="flex flex-shrink-0">
+          <div>
+            <span class="flex items-center justify-center rounded-2xl w-11 h-11 bg-rose-200">
+
+              <!-- TablerIcon name: phone -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-purple-700" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              </svg>
+
+            </span>
+          </div>
+          <div class="flex-1 ml-3 xl:ml-4">
+            <h5 class="flex items-center text-base font-semibold text-purple-900">
+              Phone
+            </h5>
+            <p class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90">
+              +1-202-555-0132
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Bottom section -->
+  <div class='flex flex-col justify-between max-w-md py-8 mx-auto sm:flex-row sm:max-w-none lg:max-w-screen-2xl'>
+
+    <!-- Copyright note -->
+    <span class='text-base text-purple-800/90'>
+      © 2021 Bright School. All rights reserved.
+    </span>
+
+    <p class='mt-0.5 flex items-center text-purple-800/90'>
+      Made with 
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 14c.83 .642 2.077 1.017 3.5 1c1.423 .017 2.67 -.358 3.5 -1c.83 -.642 2.077 -1.017 3.5 -1c1.423 -.017 2.67 .358 3.5 1" />
+        <path d="M8 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
+        <path d="M12 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
+        <path d="M3 10h14v5a6 6 0 0 1 -6 6h-2a6 6 0 0 1 -6 -6v-5z" />
+        <path d="M16.746 16.726a3 3 0 1 0 .252 -5.555" />
+      </svg> 
+      <span>
+        by
+        <a class='text-purple-700 hover:text-purple-900 hover:underline' href='https://www.tailwindawesome.com/' target='_blank'>Tailwind Awesome</a>
+      </span>
+    </p>
+  </div>
+  
+</footer>
+</body>
+
+</html>
