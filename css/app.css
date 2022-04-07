@@ -2278,6 +2278,10 @@ select{
   -o-object-position: center;
      object-position: center;
 }
+.object-top{
+  -o-object-position: top;
+     object-position: top;
+}
 .p-4{
   padding: 1rem;
 }
@@ -3091,8 +3095,8 @@ button.js-hamburger-open:hover span {
     bottom: 0;
     left: 0;
   }
-  .sm\:aspect-h-4{
-    --tw-aspect-h: 4;
+  .sm\:aspect-h-3{
+    --tw-aspect-h: 3;
   }
   .sm\:aspect-w-16{
     position: relative;
@@ -4005,13 +4009,18 @@ button.js-hamburger-open:hover span {
   .lg\:max-w-md{
     max-width: 28rem;
   }
-  .lg\:-translate-y-20{
-    --tw-translate-y: -5rem;
+  .lg\:-translate-y-10{
+    --tw-translate-y: -2.5rem;
     -webkit-transform: var(--tw-transform);
             transform: var(--tw-transform);
   }
   .lg\:translate-y-28{
     --tw-translate-y: 7rem;
+    -webkit-transform: var(--tw-transform);
+            transform: var(--tw-transform);
+  }
+  .lg\:-translate-y-20{
+    --tw-translate-y: -5rem;
     -webkit-transform: var(--tw-transform);
             transform: var(--tw-transform);
   }
